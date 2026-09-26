@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ConsolaFerreteria/ConsolaFerreteria.csproj" />
+  <Project Path="LibreriaFerreteria/LibreriaFerreteria.csproj" />
+  <Project Path="TestsFerreteria/TestsFerreteria.csproj" />
+</Solution>
