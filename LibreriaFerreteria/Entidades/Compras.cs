@@ -15,6 +15,6 @@ namespace LibreriaFerreteria.Entidades
         public List<DetalleCompras>? DetalleCompras { get; set; }
 
         [ForeignKey("id_proveedor")] public Proveedores? _proveedor { get; set; }
-        [ForeignKey("id_empleado")] public Productos? _producto { get; set; }
+        [ForeignKey("id_empleado")] public Empleados? _empleado { get; set; }
     }
 }
