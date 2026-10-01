@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\entidades\\estadocreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\estadocreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\entidades\\estadocreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\estadocreditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\entidades\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\entidades\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77742271-CD9B-478C-9F24-14AB917EB4E7}|ConsolaFerreteria\\ConsolaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\consolaferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77742271-CD9B-478C-9F24-14AB917EB4E7}|ConsolaFerreteria\\ConsolaFerreteria.csproj|solutionrelative:consolaferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18751CDC-E5AE-E2B9-FFD4-CB7C881E5046}|ConsolaFerreteria\\ConsolaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\consolaferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18751CDC-E5AE-E2B9-FFD4-CB7C881E5046}|ConsolaFerreteria\\ConsolaFerreteria.csproj|solutionrelative:consolaferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7E9F811-1EF8-4CB7-9020-6DCD32E2D1DF}|TestsFerreteria\\TestsFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\testsferreteria\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7E9F811-1EF8-4CB7-9020-6DCD32E2D1DF}|TestsFerreteria\\TestsFerreteria.csproj|solutionrelative:testsferreteria\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\proyectos en visual studio\\ferreteria_jadima\\libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{DDD85FE6-AF05-43CF-B690-E2EB0B7AF966}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\Test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestsFerreteria\\Test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,20 +63,18 @@
               "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T01:27:06.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T01:27:06.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QUERY Ferreteria Solucionado.sql ",
+              "Title": "QUERY Ferreteria Solucionado.sql",
               "DocumentMoniker": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
               "ToolTip": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
               "RelativeToolTip": "LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-09-26T00:41:29.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:41:29.998Z"
             },
             {
               "$type": "Document",
@@ -92,8 +86,7 @@
               "RelativeToolTip": "LibreriaFerreteria\\Entidades\\EstadoCreditos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:44:55.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:44:55.129Z"
             },
             {
               "$type": "Document",
@@ -105,8 +98,7 @@
               "RelativeToolTip": "LibreriaFerreteria\\Entidades\\Personas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:42:14.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:42:14.575Z"
             },
             {
               "$type": "Document",
@@ -118,8 +110,7 @@
               "RelativeToolTip": "TestsFerreteria\\Test1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:36:55.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:36:55.078Z"
             },
             {
               "$type": "Document",
@@ -131,8 +122,7 @@
               "RelativeToolTip": "ConsolaFerreteria\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:35:52.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:35:52.117Z"
             }
           ]
         }
