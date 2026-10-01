@@ -10,7 +10,8 @@ namespace LibreriaFerreteria.Entidades
         public int id {  get; set; }
         public int id_persona { get; set; }
 
-        [ForeignKey("persona")] public Personas? _persona { get; set; }
+        public List<Ventas>? Ventas { get; set; }
+        [ForeignKey("id_persona")] public Personas? _persona { get; set; }
 
     }
 }

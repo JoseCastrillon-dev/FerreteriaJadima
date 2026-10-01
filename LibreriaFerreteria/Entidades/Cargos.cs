@@ -8,5 +8,7 @@ namespace LibreriaFerreteria.Entidades
     {
         public int id {  get; set; }
         public String? nombre { get; set; }
+        public List<Salarios>? Salarios { get; set; }
     }
 }
+   

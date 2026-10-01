@@ -9,5 +9,6 @@ namespace LibreriaFerreteria.Entidades
         public int id { get; set; }
         public String? estado { get; set; }
 
+        public List<Creditos>? Creditos { get; set; }
     }
 }

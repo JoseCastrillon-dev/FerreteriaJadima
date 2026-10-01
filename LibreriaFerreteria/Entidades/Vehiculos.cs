@@ -10,7 +10,9 @@ namespace LibreriaFerreteria.Entidades
         public int id {  get; set; }
         public String? matricula { get; set; }
         public String? marca { get; set; }
-        public String? numerochasis { get; set; }
+        public String? numeroDeChasis { get; set; }
         public String? numeroMotor { get; set; }
+
+        public List<Domicilios>? Domicilios { get; set; }
     }
 }

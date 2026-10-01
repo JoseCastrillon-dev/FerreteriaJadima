@@ -12,8 +12,9 @@ namespace LibreriaFerreteria.Entidades
         public int id_tiposDePago { get; set; }
         public decimal valorHora { get; set; }
         public int horasTrabajadas { get; set; }
+        public List<Empleados>? Empleados { get; set; }
 
-        [ForeignKey("cargo")] public Cargos? _cargo { get; set; }
-        [ForeignKey("tiposDePago")] public TiposDePagos? _tiposDePago { get; set; }
+        [ForeignKey("id_cargo")] public Cargos? _cargo { get; set; }
+        [ForeignKey("id_tiposDePago")] public TiposDePagos? _tiposDePago { get; set; }
     }
 }

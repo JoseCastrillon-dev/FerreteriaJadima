@@ -15,6 +15,9 @@ namespace LibreriaFerreteria.Entidades
         public decimal iva { get; set; }
         public decimal total { get; set; }
 
+        public List<Creditos>? Creditos { get; set; }
+        public List<Domicilios>? Domicilios { get; set; }
+
         [ForeignKey("id_detalleVenta")] public DetalleVentas? _detalleVenta { get; set; }
         [ForeignKey("id_tipoDePago")] public TiposDePagos? _tipoDePago { get; set; }
         [ForeignKey("id_empleado")] public Empleados? _empleado { get; set; }

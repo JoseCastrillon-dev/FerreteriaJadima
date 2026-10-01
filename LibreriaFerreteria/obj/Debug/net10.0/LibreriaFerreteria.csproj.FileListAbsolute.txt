@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\bin\Debug\net10.0\LibreriaFerreteria.deps.json
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\bin\Debug\net10.0\LibreriaFerreteria.dll
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\bin\Debug\net10.0\LibreriaFerreteria.pdb
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.sourcelink.json
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.dll
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\refint\LibreriaFerreteria.dll
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\LibreriaFerreteria.pdb
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\ref\LibreriaFerreteria.dll
+C:\Users\Administrador\Documents\Proyectos .net 2026-2\LibreriaFerreteria\obj\Debug\net10.0\Libreria.D2FEE1CC.Up2Date

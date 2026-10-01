@@ -13,6 +13,7 @@ namespace LibreriaFerreteria.Entidades
         public int cantidad { get; set; }
         public decimal iva {  get; set; }
         public decimal total { get; set; }
+        public List<Ventas>? Ventas { get; set; }
 
         [ForeignKey("id_producto")] public Productos? _producto { get; set; }
     }

@@ -1,3 +1,4 @@
+/*
 CREATE DATABASE Ferreteria_Jadima;
 GO
 USE Ferreteria_Jadima;
@@ -152,3 +153,4 @@ CREATE TABLE [Entregas](
 	[fechaSalida] DATETIME NULL, 
 	[fechaLlegada] DATETIME NULL
 );
+*/
