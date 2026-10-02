@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj": {}
+    "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj": {}
   },
   "projects": {
-    "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
         "projectName": "LibreriaFerreteria",
-        "projectPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -352,20 +351,20 @@
         }
       }
     },
-    "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj",
         "projectName": "TestsFerreteria",
-        "projectPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\TestsFerreteria\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -374,7 +373,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -382,8 +380,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
-                "projectPath": "D:\\Desarrollo\\Proyectos en Visual Studio\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
+              "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
               }
             }
           }
