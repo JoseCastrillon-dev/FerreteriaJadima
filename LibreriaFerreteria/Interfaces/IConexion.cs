@@ -6,8 +6,6 @@ namespace LibreriaFerreteria.Interfaces
 {
     public interface IConexion
     {
-        string? StringConexion { get; set; }
-
         DbSet<Cargos>? Cargos { get; set; }
         DbSet<Clientes>? Clientes { get; set; }
         DbSet<Compras>? Compras { get; set; }

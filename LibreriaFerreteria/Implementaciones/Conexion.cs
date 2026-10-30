@@ -1,4 +1,5 @@
-﻿using LibreriaFerreteria.Entidades;
+﻿using lib_aplicaciones.nucleo;
+using LibreriaFerreteria.Entidades;
 using LibreriaFerreteria.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,14 +7,13 @@ namespace LibreriaFerreteria.Implementaciones
 {
     public class Conexion : DbContext, IConexion
     {
-        public string? StringConexion { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(this.StringConexion!, p => { });
+            optionsBuilder.UseSqlServer(DatosGenerales.StringConexion()!, p => { });
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
-
+    
         public DbSet<Cargos>? Cargos { get; set; }
         public DbSet<Clientes>? Clientes { get; set; }
         public DbSet<Compras>? Compras { get; set; }

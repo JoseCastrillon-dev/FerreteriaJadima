@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {}
+    "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
+    "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
+        "projectUniqueName": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
         "projectName": "LibreriaFerreteria",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\obj\\",
+        "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,9 +53,17 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "MSTest": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.12, )"
+              "version": "[10.0.14, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[10.0.14, )"
             }
           },
           "imports": [

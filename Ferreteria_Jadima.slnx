@@ -1,5 +1,6 @@
 <Solution>
+  <Project Path="asp_servicios/asp_servicios.csproj" Id="67431868-e270-474d-9e8f-3003a54c3138" />
   <Project Path="ConsolaFerreteria/ConsolaFerreteria.csproj" />
   <Project Path="LibreriaFerreteria/LibreriaFerreteria.csproj" />
-  <Project Path="TestsFerreteria/TestsFerreteria.csproj" />
+  <Project Path="TestFerreteria/TestFerreteria.csproj" Id="398b34b7-ae74-4fab-a7a3-188f84ac1781" />
 </Solution>

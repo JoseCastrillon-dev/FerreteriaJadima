@@ -4011,23 +4011,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj",
       "projectName": "TestsFerreteria",
-      "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\TestsFerreteria.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\TestsFerreteria\\obj\\",
+      "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\TestsFerreteria\\TestsFerreteria.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Desarrollo\\Ferreteria_Jadima\\TestsFerreteria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4036,6 +4036,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4043,8 +4044,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
-              "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
+            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
+              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
             }
           }
         }
@@ -4364,5 +4365,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.11 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.11 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
