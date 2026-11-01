@@ -3,7 +3,7 @@ using LibreriaFerreteria.Entidades;
 using LibreriaFerreteria.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace servicios_Personas.Controllers
+namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]

@@ -1,6 +1,378 @@
 [
   {
-    "ContainingType": "servicios_Personas.Controllers.PersonasController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
+    "Method": "Actualizar",
+    "RelativePath": "Cargos/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.CargosController",
+    "Method": "Borrar",
+    "RelativePath": "Cargos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.CargosController",
+    "Method": "Buscar",
+    "RelativePath": "Cargos/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cargos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.CargosController",
+    "Method": "Consultar",
+    "RelativePath": "Cargos/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cargos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.CargosController",
+    "Method": "Insertar",
+    "RelativePath": "Cargos/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ClientesController",
+    "Method": "Actualizar",
+    "RelativePath": "Clientes/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ClientesController",
+    "Method": "Borrar",
+    "RelativePath": "Clientes/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ClientesController",
+    "Method": "Buscar",
+    "RelativePath": "Clientes/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Clientes, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ClientesController",
+    "Method": "Consultar",
+    "RelativePath": "Clientes/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Clientes, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ClientesController",
+    "Method": "Insertar",
+    "RelativePath": "Clientes/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstadoCreditosController",
+    "Method": "Actualizar",
+    "RelativePath": "EstadoCreditos/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstadoCreditosController",
+    "Method": "Borrar",
+    "RelativePath": "EstadoCreditos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstadoCreditosController",
+    "Method": "Buscar",
+    "RelativePath": "EstadoCreditos/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.EstadoCreditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstadoCreditosController",
+    "Method": "Consultar",
+    "RelativePath": "EstadoCreditos/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.EstadoCreditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.EstadoCreditosController",
+    "Method": "Insertar",
+    "RelativePath": "EstadoCreditos/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.PersonasController",
     "Method": "Actualizar",
     "RelativePath": "Personas/Actualizar",
     "HttpMethod": "POST",
@@ -26,7 +398,7 @@
     ]
   },
   {
-    "ContainingType": "servicios_Personas.Controllers.PersonasController",
+    "ContainingType": "asp_servicios.Controllers.PersonasController",
     "Method": "Borrar",
     "RelativePath": "Personas/Borrar",
     "HttpMethod": "POST",
@@ -52,7 +424,7 @@
     ]
   },
   {
-    "ContainingType": "servicios_Personas.Controllers.PersonasController",
+    "ContainingType": "asp_servicios.Controllers.PersonasController",
     "Method": "Buscar",
     "RelativePath": "Personas/Buscar",
     "HttpMethod": "POST",
@@ -78,7 +450,7 @@
     ]
   },
   {
-    "ContainingType": "servicios_Personas.Controllers.PersonasController",
+    "ContainingType": "asp_servicios.Controllers.PersonasController",
     "Method": "Consultar",
     "RelativePath": "Personas/Consultar",
     "HttpMethod": "POST",
@@ -98,7 +470,7 @@
     ]
   },
   {
-    "ContainingType": "servicios_Personas.Controllers.PersonasController",
+    "ContainingType": "asp_servicios.Controllers.PersonasController",
     "Method": "Insertar",
     "RelativePath": "Personas/Insertar",
     "HttpMethod": "POST",
@@ -114,6 +486,502 @@
     "ReturnTypes": [
       {
         "Type": "LibreriaFerreteria.Entidades.Personas",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "Actualizar",
+    "RelativePath": "Proveedores/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "Borrar",
+    "RelativePath": "Proveedores/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "Buscar",
+    "RelativePath": "Proveedores/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Proveedores, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "Consultar",
+    "RelativePath": "Proveedores/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Proveedores, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "Insertar",
+    "RelativePath": "Proveedores/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposController",
+    "Method": "Actualizar",
+    "RelativePath": "Tipos/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposController",
+    "Method": "Borrar",
+    "RelativePath": "Tipos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposController",
+    "Method": "Buscar",
+    "RelativePath": "Tipos/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Tipos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposController",
+    "Method": "Consultar",
+    "RelativePath": "Tipos/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Tipos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposController",
+    "Method": "Insertar",
+    "RelativePath": "Tipos/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposDePagosController",
+    "Method": "Actualizar",
+    "RelativePath": "TiposDePagos/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposDePagosController",
+    "Method": "Borrar",
+    "RelativePath": "TiposDePagos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposDePagosController",
+    "Method": "Buscar",
+    "RelativePath": "TiposDePagos/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.TiposDePagos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposDePagosController",
+    "Method": "Consultar",
+    "RelativePath": "TiposDePagos/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.TiposDePagos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TiposDePagosController",
+    "Method": "Insertar",
+    "RelativePath": "TiposDePagos/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.VehiculosController",
+    "Method": "Actualizar",
+    "RelativePath": "Vehiculos/Actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.VehiculosController",
+    "Method": "Borrar",
+    "RelativePath": "Vehiculos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.VehiculosController",
+    "Method": "Buscar",
+    "RelativePath": "Vehiculos/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Vehiculos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.VehiculosController",
+    "Method": "Consultar",
+    "RelativePath": "Vehiculos/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Vehiculos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.VehiculosController",
+    "Method": "Insertar",
+    "RelativePath": "Vehiculos/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
         "MediaTypes": [
           "text/plain",
           "application/json",

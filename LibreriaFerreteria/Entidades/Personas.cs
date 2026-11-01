@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace LibreriaFerreteria.Entidades
 {
@@ -12,7 +14,7 @@ namespace LibreriaFerreteria.Entidades
         public String? apellido { get; set; }
         public String? numeroTelefono { get; set; }
 
-        public List<Clientes>? Clientes { get; set; }
+        [NotMapped] public List<Clientes>? Clientes { get; set; }
         public List<Empleados>? Empleados { get; set; }
     }
 }
