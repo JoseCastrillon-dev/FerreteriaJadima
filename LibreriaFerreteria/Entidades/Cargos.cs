@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace LibreriaFerreteria.Entidades
@@ -8,7 +9,7 @@ namespace LibreriaFerreteria.Entidades
     {
         public int id {  get; set; }
         public String? nombre { get; set; }
-        public List<Salarios>? Salarios { get; set; }
+        [NotMapped] public List<Salarios>? Salarios { get; set; }
     }
 }
    

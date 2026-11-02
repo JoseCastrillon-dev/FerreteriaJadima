@@ -3,16 +3,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibreriaFerreteria.Interfaces
 {
-    public class TiposDePagosAplicacioncs : ITiposDePagosAplicacion
+    public class ProductosAplicacion : IProductosAplicacion
     {
         private IConexion IConexion;
 
-        public TiposDePagosAplicacioncs(IConexion IConexion)
+        public ProductosAplicacion(IConexion IConexion)
         {
             this.IConexion = IConexion;
         }
 
-        public TiposDePagos Actualizar(TiposDePagos entidad)
+        public Productos Actualizar(Productos entidad)
         {
             if (entidad.id == 0)
                 throw new Exception("No se ha guardo");
@@ -20,34 +20,35 @@ namespace LibreriaFerreteria.Interfaces
             if (Validar(entidad))
                 throw new Exception("Falta informacion");
 
-            var entry = this.IConexion!.Entry<TiposDePagos>(entidad);
+            var entry = this.IConexion!.Entry<Productos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion!.SaveChanges();
             return entidad;
         }
 
-        public TiposDePagos Borrar(TiposDePagos entidad)
+        public Productos Borrar(Productos entidad)
         {
             if (entidad.id == 0)
                 throw new Exception("No se ha guardo");
 
-            this.IConexion.TiposDePagos!.Remove(entidad!);
+            this.IConexion.Productos!.Remove(entidad!);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<TiposDePagos> Buscar(TiposDePagos entidad)
+        public List<Productos> Buscar(Productos entidad)
         {
-            return this.IConexion.TiposDePagos!
-                .Where(x => x.metodo!.Contains(entidad.metodo!)).ToList();
+            return this.IConexion.Productos!
+                .Include(x => x._tipo)
+                .Where(x => x.codigo!.Contains(entidad.codigo!)).ToList();
         }
 
-        public List<TiposDePagos> Consultar()
+        public List<Productos> Consultar()
         {
-            return this.IConexion.TiposDePagos!.ToList();
+            return this.IConexion.Productos!.ToList();
         }
 
-        public TiposDePagos Insertar(TiposDePagos entidad)
+        public Productos Insertar(Productos entidad)
         {
             if (entidad.id != 0)
                 throw new Exception("Ya se guardo");
@@ -55,15 +56,17 @@ namespace LibreriaFerreteria.Interfaces
             if (Validar(entidad))
                 throw new Exception("Falta informacion");
 
-            this.IConexion.TiposDePagos!.Add(entidad!);
+            this.IConexion.Productos!.Add(entidad!);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        private bool Validar(TiposDePagos entidad)
+        private bool Validar(Productos entidad)
         {
             return
-                string.IsNullOrEmpty(entidad.metodo);
+                string.IsNullOrEmpty(entidad.codigo) ||
+                string.IsNullOrEmpty(entidad.nombre);
+
         }
     }
 }

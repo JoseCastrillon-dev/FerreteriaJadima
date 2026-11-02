@@ -10,11 +10,15 @@ builder.Services.AddScoped<IConexion, Conexion>();
 builder.Services.AddScoped<IPersonasAplicacion, PersonasAplicacion>();
 builder.Services.AddScoped<IEstadoCreditosAplicacion, EstadoCreditosAplicacion>();
 builder.Services.AddScoped<ICargosAplicacion, CargosAplicacion>();
-builder.Services.AddScoped<ITiposDePagosAplicacion, TiposDePagosAplicacioncs>();
+builder.Services.AddScoped<ITiposDePagosAplicacion, TiposDePagosAplicacion>();
 builder.Services.AddScoped<ITiposAplicacion, TiposAplicacion>();
 builder.Services.AddScoped<IVehiculosAplicacion, VehiculosAplicacion>();
 builder.Services.AddScoped<IProveedoresAplicacion, ProveedoresAplicacion>();
 builder.Services.AddScoped<IClientesAplicacion, ClientesAplicacion>();
+builder.Services.AddScoped<ISalariosAplicacion, SalariosAplicacion>();
+builder.Services.AddScoped<IProductosAplicacion, ProductosAplicacion>();
+builder.Services.AddScoped<IDetalleVentasAplicacion, DetalleVentasAplicacion>();
+
 
 
 

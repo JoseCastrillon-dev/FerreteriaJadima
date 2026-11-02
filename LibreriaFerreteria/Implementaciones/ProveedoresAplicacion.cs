@@ -63,7 +63,10 @@ namespace LibreriaFerreteria.Interfaces
         private bool Validar(Proveedores entidad)
         {
             return
-                string.IsNullOrEmpty(entidad.nombre);
+                string.IsNullOrEmpty(entidad.nombre) ||
+                string.IsNullOrEmpty(entidad.numeroDeTelefono) ||
+                string.IsNullOrEmpty(entidad.direccion) ||
+                string.IsNullOrEmpty(entidad.email);
         }
     }
 }

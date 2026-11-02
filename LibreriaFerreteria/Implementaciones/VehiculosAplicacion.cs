@@ -63,8 +63,11 @@ namespace LibreriaFerreteria.Interfaces
         private bool Validar(Vehiculos entidad)
         {
             return
-                string.IsNullOrEmpty(entidad.matricula);
-                
+                string.IsNullOrEmpty(entidad.matricula) ||
+                string.IsNullOrEmpty(entidad.marca) ||
+                string.IsNullOrEmpty(entidad.numeroDeChasis) ||
+                string.IsNullOrEmpty(entidad.numeroMotor);
+
         }
     }
 }

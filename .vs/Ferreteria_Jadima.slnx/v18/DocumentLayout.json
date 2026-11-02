@@ -3,36 +3,100 @@
   "WorkspaceRootPath": "D:\\Desarrollo\\Ferreteria_Jadima\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\detalleventasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\detalleventasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\detalleventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\detalleventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\query ferreteria solucionado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\icargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\icargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\entidades\\tipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\tipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\productosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\productosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\salariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\salariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\vehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\vehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\tiposaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\tiposaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\tiposdepagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\tiposdepagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\cargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\cargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iclientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iclientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\estadocreditosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\estadocreditosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\icargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\icargosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iproductosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iproductosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iproveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iproveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\salarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\salarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\entidades\\salarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\entidades\\salarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\isalariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\isalariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iclientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iclientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,18 +107,6 @@
       "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\estadocreditoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\proveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\iproveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iproveedoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\vehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\vehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,20 +115,12 @@
       "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tiposdepagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\tiposdepagosaplicacioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\tiposdepagosaplicacioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\ivehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\ivehiculosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\interfaces\\itiposdepagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\itiposdepagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\tiposaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\tiposaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\controllers\\tiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\interfaces\\iestadocreditosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|d:\\desarrollo\\ferreteria_jadima\\libreriaferreteria\\implementaciones\\estadocreditosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3088B6-ADF1-B06A-9757-CE15C3BC108D}|LibreriaFerreteria\\LibreriaFerreteria.csproj|solutionrelative:libreriaferreteria\\implementaciones\\estadocreditosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|d:\\desarrollo\\ferreteria_jadima\\asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{67431868-E270-474D-9E8F-3003A54C3138}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -113,12 +153,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 113,
+          "DockedWidth": 191,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "QUERY Ferreteria Solucionado.sql ",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\QUERY Ferreteria Solucionado.sql",
@@ -131,25 +171,116 @@
           ]
         },
         {
-          "DockedWidth": 345,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 267,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Productos.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Entidades\\Productos.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Productos.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Entidades\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:21:14.946Z",
+              "WhenOpened": "2026-11-02T21:46:53.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DetalleVentasController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\DetalleVentasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\DetalleVentasController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\DetalleVentasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\DetalleVentasController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T21:44:55.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetalleVentasAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\DetalleVentasAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\DetalleVentasAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\DetalleVentasAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\DetalleVentasAplicacion.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAawBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T21:41:46.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T00:17:00.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tipos.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Tipos.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Entidades\\Tipos.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Tipos.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Entidades\\Tipos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T21:11:04.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T21:08:26.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IcargosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:17:33.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalariosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\SalariosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\SalariosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\SalariosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\SalariosAplicacion.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:18:55.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ClientesAplicacion.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ClientesAplicacion.cs",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\ClientesAplicacion.cs",
@@ -162,119 +293,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CargosController.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\CargosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\CargosController.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\CargosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\CargosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:21:01.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Program.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Program.cs",
-              "RelativeToolTip": "asp_servicios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T00:17:00.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CargosAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA+wEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:18:38.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IClientesAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T20:04:13.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ProveedoresController.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProveedoresController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ProveedoresController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAhAAAAAAAAAA==",
+              "Title": "ProductosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProductosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\ProductosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProductosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\ProductosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:56:49.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IcargosAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IcargosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:17:33.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProveedoresAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:55:30.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EstadoCreditosController.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\EstadoCreditosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstadoCreditosController.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\EstadoCreditosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\EstadoCreditosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:01:18.108Z",
+              "WhenOpened": "2026-11-02T20:55:24.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IProveedoresAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Title": "ProveedoresAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\ProveedoresAplicacion.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA9wEQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:54:14.031Z",
+              "WhenOpened": "2026-11-01T19:55:30.334Z",
               "EditorCaption": ""
             },
             {
@@ -285,14 +325,180 @@
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\VehiculosAplicacion.cs",
               "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\VehiculosAplicacion.cs",
               "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\VehiculosAplicacion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAArwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T19:42:55.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TiposAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:45:06.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "TiposDePagosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacion.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:32:24.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CargosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\CargosAplicacion.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:18:38.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstadoCreditosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T21:54:44.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProductosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IProductosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProductosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IProductosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:53:50.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProveedoresAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IProveedoresAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T19:54:14.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SalariosController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\SalariosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\SalariosController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\SalariosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\SalariosController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:34:27.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CargosController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\CargosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\CargosController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\CargosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\CargosController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:21:01.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Salarios.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Salarios.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Entidades\\Salarios.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Entidades\\Salarios.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Entidades\\Salarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:47:56.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISalariosAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\ISalariosAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\ISalariosAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\ISalariosAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\ISalariosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:18:05.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IClientesAplicacion.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
+              "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
+              "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IClientesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T20:04:13.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T19:56:49.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EstadoCreditosController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\EstadoCreditosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\EstadoCreditosController.cs",
+              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\EstadoCreditosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\EstadoCreditosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T22:01:18.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "TiposDePagosController.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\TiposDePagosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TiposDePagosController.cs",
@@ -300,12 +506,11 @@
               "RelativeToolTip": "asp_servicios\\Controllers\\TiposDePagosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:35:18.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T22:35:18.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "VehiculosController.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\VehiculosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\VehiculosController.cs",
@@ -313,12 +518,11 @@
               "RelativeToolTip": "asp_servicios\\Controllers\\VehiculosController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:45:10.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:45:10.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "IVehiculosAplicacion.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IVehiculosAplicacion.cs",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IVehiculosAplicacion.cs",
@@ -326,25 +530,11 @@
               "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\IVehiculosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T19:40:38.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T19:40:38.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TiposDePagosAplicacioncs.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacioncs.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacioncs.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacioncs.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\TiposDePagosAplicacioncs.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAwwEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:32:24.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "ITiposDePagosAplicacion.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\ITiposDePagosAplicacion.cs",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\ITiposDePagosAplicacion.cs",
@@ -352,25 +542,11 @@
               "RelativeToolTip": "LibreriaFerreteria\\Interfaces\\ITiposDePagosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:31:03.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T22:31:03.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TiposAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\TiposAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T22:45:06.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "TiposController.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\TiposController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TiposController.cs",
@@ -382,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "ITiposAplicacion.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\ITiposAplicacion.cs",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\ITiposAplicacion.cs",
@@ -394,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "PersonasController.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\Controllers\\PersonasController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PersonasController.cs",
@@ -406,19 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EstadoCreditosAplicacion.cs",
-              "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
-              "RelativeDocumentMoniker": "LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
-              "ToolTip": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
-              "RelativeToolTip": "LibreriaFerreteria\\Implementaciones\\EstadoCreditosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T21:54:44.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "IEstadoCreditosAplicacion.cs",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\Interfaces\\IEstadoCreditosAplicacion.cs",
               "RelativeDocumentMoniker": "LibreriaFerreteria\\Interfaces\\IEstadoCreditosAplicacion.cs",
@@ -430,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "asp_servicios.csproj",
               "DocumentMoniker": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\asp_servicios.csproj",
               "RelativeDocumentMoniker": "asp_servicios\\asp_servicios.csproj",
