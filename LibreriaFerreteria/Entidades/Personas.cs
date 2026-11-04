@@ -15,6 +15,6 @@ namespace LibreriaFerreteria.Entidades
         public String? numeroTelefono { get; set; }
 
         [NotMapped] public List<Clientes>? Clientes { get; set; }
-        public List<Empleados>? Empleados { get; set; }
+        [NotMapped] public List<Empleados>? Empleados { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace LibreriaFerreteria.Entidades
         public String? numeroDeTelefono { get; set; }
         public String? direccion { get; set; }
 
-        public List<Entregas>? Entregas { get; set; }
+        [NotMapped] public List<Entregas>? Entregas { get; set; }
 
         [ForeignKey("id_venta")] public Ventas? _venta { get; set; }
         [ForeignKey("id_vehiculo")] public Vehiculos? _vehiculos { get; set; }

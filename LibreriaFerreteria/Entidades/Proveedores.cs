@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace LibreriaFerreteria.Entidades
@@ -12,6 +13,6 @@ namespace LibreriaFerreteria.Entidades
         public String? direccion {  get; set; }
         public String? email { get; set; }
 
-        public List<Compras>? Compras { get; set; }
+        [NotMapped] public List<Compras>? Compras { get; set; }
     }
 }

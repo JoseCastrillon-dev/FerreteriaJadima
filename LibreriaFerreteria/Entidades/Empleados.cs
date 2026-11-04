@@ -13,9 +13,9 @@ namespace LibreriaFerreteria.Entidades
         public String? carnet {  get; set; }
         public String? Genero { get; set; }
 
-        public List<Entregas>? Entregas { get; set; }
-        public List<Estanterias>? Estanterias { get; set; }
-        public List<Ventas>? Ventas { get; set; }
+        [NotMapped] public List<Entregas>? Entregas { get; set; }
+        [NotMapped] public List<Estanterias>? Estanterias { get; set; }
+        [NotMapped] public List<Ventas>? Ventas { get; set; }
 
         [ForeignKey("id_persona")] public Personas? _persona { get; set; }
         [ForeignKey("id_salario")] public Salarios? _salario { get; set; }

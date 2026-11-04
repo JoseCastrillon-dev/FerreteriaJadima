@@ -12,7 +12,7 @@ namespace LibreriaFerreteria.Entidades
         public int id_empleado { get; set; }
         public DateTime fechaCompra { get; set; }
         public decimal total {  get; set; }
-        public List<DetalleCompras>? DetalleCompras { get; set; }
+        [NotMapped] public List<DetalleCompras>? DetalleCompras { get; set; }
 
         [ForeignKey("id_proveedor")] public Proveedores? _proveedor { get; set; }
         [ForeignKey("id_empleado")] public Empleados? _empleado { get; set; }

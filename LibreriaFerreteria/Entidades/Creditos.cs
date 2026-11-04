@@ -13,7 +13,7 @@ namespace LibreriaFerreteria.Entidades
         public DateTime? fechaPrestamo { get; set; }
         public decimal valorPrestamo { get; set; }
 
-        public List<Cuotas>? Cuotas { get; set; }
+        [NotMapped] public List<Cuotas>? Cuotas { get; set; }
 
         [ForeignKey("idVenta")] public Ventas? _venta { get; set; }
         [ForeignKey("id_estadoCredito")] public EstadoCreditos? _estadoCredito { get; set; }

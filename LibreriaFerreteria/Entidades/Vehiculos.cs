@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
 using System.Text;
 
@@ -13,6 +14,6 @@ namespace LibreriaFerreteria.Entidades
         public String? numeroDeChasis { get; set; }
         public String? numeroMotor { get; set; }
 
-        public List<Domicilios>? Domicilios { get; set; }
+        [NotMapped] public List<Domicilios>? Domicilios { get; set; }
     }
 }

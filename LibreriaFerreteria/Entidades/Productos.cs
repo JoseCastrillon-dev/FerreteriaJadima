@@ -14,9 +14,9 @@ namespace LibreriaFerreteria.Entidades
         public String? nombre { get; set; }
         public decimal valor { get; set; }
 
-        public List<DetalleCompras>? DetalleCompras { get; set; }
+        [NotMapped] public List<DetalleCompras>? DetalleCompras { get; set; }
         [NotMapped] public List<DetalleVentas>? DetalleVentas { get; set; }
-        public List<Estanterias>? Estanterias { get; set; }
+        [NotMapped] public List<Estanterias>? Estanterias { get; set; }
         [ForeignKey("id_tipo")] public Tipos? _tipo { get; set; }
     }
 }
