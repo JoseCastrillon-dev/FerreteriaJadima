@@ -1,13 +1,14 @@
-﻿using LibreriaFerreteria.Entidades;
+﻿
+using LibreriaFerreteria.Entidades;
 
 namespace LibreriaFerreteria.Interfaces
 {
-    public interface IDetalleVentasAplicacion
+    public interface ICargosAplicacion
     {
-        DetalleVentas Insertar(DetalleVentas entidad);
-        DetalleVentas Actualizar(DetalleVentas entidad);
-        List<DetalleVentas> Consultar();
-        List<DetalleVentas> Buscar(DetalleVentas entidad);
-        DetalleVentas Borrar(DetalleVentas entidad);
+        Cargos Insertar(Cargos entidad);
+        Cargos Actualizar(Cargos entidad);
+        List<Cargos> Consultar();
+        List<Cargos> Buscar(Cargos entidad);
+        Cargos Borrar(Cargos entidad);
     }
 }

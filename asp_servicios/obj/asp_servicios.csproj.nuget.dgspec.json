@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
-                "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
+              "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj": {
+                "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj"
               }
             }
           }
@@ -493,12 +493,12 @@
         }
       }
     },
-    "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
+    "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
-        "projectName": "LibreriaFerreteria",
-        "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj",
+        "projectUniqueName": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj",
+        "projectName": "LibreriaAplicacionFerreteria",
+        "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\obj\\",
         "projectStyle": "PackageReference",

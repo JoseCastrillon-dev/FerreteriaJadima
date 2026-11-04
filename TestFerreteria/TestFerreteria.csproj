@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibreriaFerreteria\LibreriaFerreteria.csproj" />
+    <ProjectReference Include="..\LibreriaFerreteria\LibreriaAplicacionFerreteria.csproj" />
   </ItemGroup>
 
   <ItemGroup>

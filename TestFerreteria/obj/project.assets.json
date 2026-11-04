@@ -1705,7 +1705,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "LibreriaFerreteria/1.0.0": {
+      "LibreriaAplicacionFerreteria/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -1714,10 +1714,10 @@
           "System.Security.Cryptography.Pkcs": "10.0.14"
         },
         "compile": {
-          "bin/placeholder/LibreriaFerreteria.dll": {}
+          "bin/placeholder/LibreriaAplicacionFerreteria.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LibreriaFerreteria.dll": {}
+          "bin/placeholder/LibreriaAplicacionFerreteria.dll": {}
         }
       }
     }
@@ -3840,15 +3840,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "LibreriaFerreteria/1.0.0": {
+    "LibreriaAplicacionFerreteria/1.0.0": {
       "type": "project",
-      "path": "../LibreriaFerreteria/LibreriaFerreteria.csproj",
-      "msbuildProject": "../LibreriaFerreteria/LibreriaFerreteria.csproj"
+      "path": "../LibreriaFerreteria/LibreriaAplicacionFerreteria.csproj",
+      "msbuildProject": "../LibreriaFerreteria/LibreriaAplicacionFerreteria.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "LibreriaFerreteria >= 1.0.0",
+      "LibreriaAplicacionFerreteria >= 1.0.0",
       "MSTest >= 4.5.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.14",
       "System.Security.Cryptography.Pkcs >= 10.0.14"
@@ -3888,8 +3888,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj": {
-              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaFerreteria.csproj"
+            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj": {
+              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj"
             }
           }
         }
