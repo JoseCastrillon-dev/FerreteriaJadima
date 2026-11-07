@@ -1,7 +1,8 @@
 <Solution>
   <Project Path="asp_servicios/asp_servicios.csproj" Id="67431868-e270-474d-9e8f-3003a54c3138" />
   <Project Path="ConsolaFerreteria/ConsolaFerreteria.csproj" />
-  <Project Path="LibreriaFerreteria/LibreriaAplicacionFerreteria.csproj" />
+  <Project Path="Front_Ferreteria/Front_Ferreteria.csproj" Id="c4e95b87-1ce5-4e0d-9965-f6d84aee0669" />
+  <Project Path="LibreriaAplicacionFerreteria/LibreriaAplicacionFerreteria.csproj" />
   <Project Path="LibreriaPresentacionFerreteria/LibreriaPresentacionFerreteria.csproj" Id="9218ab5c-466f-488c-83f2-c0c33a1dfbea" />
   <Project Path="TestFerreteria/TestFerreteria.csproj" Id="398b34b7-ae74-4fab-a7a3-188f84ac1781" />
 </Solution>

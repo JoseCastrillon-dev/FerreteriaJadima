@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "asp_servicios/1.0.0": {
         "dependencies": {
-          "LibreriaFerreteria": "1.0.0",
+          "LibreriaAplicacionFerreteria": "1.0.0",
           "MSTest.TestAdapter.Reference": "4.5.1.0",
           "MSTest.TestFramework.Extensions": "4.5.1.0",
           "MSTestAdapter.PlatformServices": "4.5.1.0"
@@ -1276,14 +1276,14 @@
           }
         }
       },
-      "LibreriaFerreteria/1.0.0": {
+      "LibreriaAplicacionFerreteria/1.0.0": {
         "dependencies": {
           "MSTest": "4.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.14",
           "System.Security.Cryptography.Pkcs": "10.0.14"
         },
         "runtime": {
-          "LibreriaFerreteria.dll": {
+          "LibreriaAplicacionFerreteria.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1615,7 +1615,7 @@
       "path": "system.security.cryptography.protecteddata/9.0.11",
       "hashPath": "system.security.cryptography.protecteddata.9.0.11.nupkg.sha512"
     },
-    "LibreriaFerreteria/1.0.0": {
+    "LibreriaAplicacionFerreteria/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

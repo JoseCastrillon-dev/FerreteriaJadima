@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,13 +35,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,13 +61,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cargos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Cargos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -87,7 +87,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cargos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Cargos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,13 +107,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cargos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cargos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -133,13 +133,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -159,13 +159,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -185,13 +185,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Clientes, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Clientes, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -211,7 +211,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Clientes, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Clientes, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -231,13 +231,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Clientes",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Clientes",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -257,13 +257,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -283,13 +283,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -309,13 +309,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Compras, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Compras, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -335,7 +335,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Compras, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Compras, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -355,13 +355,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Compras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Compras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -381,13 +381,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -407,13 +407,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -433,13 +433,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Creditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Creditos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -459,7 +459,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Creditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Creditos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -479,13 +479,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Creditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Creditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -505,13 +505,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -531,13 +531,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -557,13 +557,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cuotas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Cuotas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -583,7 +583,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Cuotas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Cuotas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -603,13 +603,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Cuotas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Cuotas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -629,13 +629,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -655,13 +655,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -681,13 +681,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.DetalleCompras, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.DetalleCompras, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -707,7 +707,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.DetalleCompras, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.DetalleCompras, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -727,13 +727,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleCompras",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleCompras",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -753,13 +753,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -779,13 +779,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -805,13 +805,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.DetalleVentas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.DetalleVentas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -831,7 +831,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.DetalleVentas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.DetalleVentas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -851,13 +851,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.DetalleVentas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.DetalleVentas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -877,13 +877,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -903,13 +903,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -929,13 +929,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Domicilios, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Domicilios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -955,7 +955,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Domicilios, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Domicilios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -975,13 +975,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Domicilios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Domicilios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1001,13 +1001,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1027,13 +1027,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1053,13 +1053,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Empleados, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Empleados, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1079,7 +1079,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Empleados, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Empleados, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1099,13 +1099,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Empleados",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Empleados",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1125,13 +1125,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1151,13 +1151,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1177,13 +1177,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Entregas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Entregas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1203,7 +1203,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Entregas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Entregas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1223,13 +1223,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Entregas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Entregas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1249,13 +1249,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1275,13 +1275,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1301,13 +1301,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.EstadoCreditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.EstadoCreditos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1327,7 +1327,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.EstadoCreditos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.EstadoCreditos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1347,13 +1347,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.EstadoCreditos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.EstadoCreditos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1373,13 +1373,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1399,13 +1399,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1425,13 +1425,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Estanterias, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Estanterias, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1451,7 +1451,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Estanterias, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Estanterias, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1471,13 +1471,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Estanterias",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Estanterias",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1497,13 +1497,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1523,13 +1523,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1549,13 +1549,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Personas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Personas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1575,7 +1575,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Personas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Personas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1595,13 +1595,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Personas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Personas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1621,13 +1621,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1647,13 +1647,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1673,13 +1673,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Productos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Productos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1699,7 +1699,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Productos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Productos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1719,13 +1719,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Productos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Productos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1745,13 +1745,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1771,13 +1771,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1797,13 +1797,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Proveedores, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Proveedores, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1823,7 +1823,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Proveedores, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Proveedores, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1843,13 +1843,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Proveedores",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Proveedores",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1869,13 +1869,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1895,13 +1895,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1921,13 +1921,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Salarios, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Salarios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1947,7 +1947,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Salarios, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Salarios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1967,13 +1967,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Salarios",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Salarios",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1993,13 +1993,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2019,13 +2019,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2045,13 +2045,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Tipos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Tipos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2071,7 +2071,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Tipos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Tipos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2091,13 +2091,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Tipos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Tipos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2117,13 +2117,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2143,13 +2143,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2169,13 +2169,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.TiposDePagos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.TiposDePagos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2195,7 +2195,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.TiposDePagos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.TiposDePagos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2215,13 +2215,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.TiposDePagos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.TiposDePagos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2241,13 +2241,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2267,13 +2267,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2293,13 +2293,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Vehiculos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Vehiculos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2319,7 +2319,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Vehiculos, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Vehiculos, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2339,13 +2339,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Vehiculos",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Vehiculos",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2365,13 +2365,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2391,13 +2391,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2417,13 +2417,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Ventas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Ventas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2443,7 +2443,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[LibreriaFerreteria.Entidades.Ventas, LibreriaFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Ventas, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2463,13 +2463,13 @@
     "Parameters": [
       {
         "Name": "entidad",
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LibreriaFerreteria.Entidades.Ventas",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Ventas",
         "MediaTypes": [
           "text/plain",
           "application/json",

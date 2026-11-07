@@ -3885,8 +3885,8 @@
     },
     "LibreriaAplicacionFerreteria/1.0.0": {
       "type": "project",
-      "path": "../LibreriaFerreteria/LibreriaAplicacionFerreteria.csproj",
-      "msbuildProject": "../LibreriaFerreteria/LibreriaAplicacionFerreteria.csproj"
+      "path": "../LibreriaAplicacionFerreteria/LibreriaAplicacionFerreteria.csproj",
+      "msbuildProject": "../LibreriaAplicacionFerreteria/LibreriaAplicacionFerreteria.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3931,8 +3931,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj": {
-              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaFerreteria\\LibreriaAplicacionFerreteria.csproj"
+            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj": {
+              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj"
             }
           }
         }

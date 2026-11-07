@@ -1,7 +1,7 @@
-﻿using lib_aplicaciones.nucleo;
-using LibreriaFerreteria.Entidades;
-using LibreriaFerreteria.Implementaciones;
-using LibreriaFerreteria.Interfaces;
+﻿using LibreriaAplicacionFerreteria.nucleo;
+using LibreriaAplicacionFerreteria.Entidades;
+using LibreriaAplicacionFerreteria.Implementaciones;
+using LibreriaAplicacionFerreteria.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Tests;
@@ -39,7 +39,7 @@ public sealed class PruebaCompras
             id_proveedor = 6,
             id_empleado = 1,
             fechaCompra = DateTime.Now,
-            total = 500000
+            total = 500000m
         });
         this.conexion.SaveChanges();
     }

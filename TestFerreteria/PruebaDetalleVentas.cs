@@ -1,7 +1,7 @@
-﻿using lib_aplicaciones.nucleo;
-using LibreriaFerreteria.Entidades;
-using LibreriaFerreteria.Implementaciones;
-using LibreriaFerreteria.Interfaces;
+﻿using LibreriaAplicacionFerreteria.nucleo;
+using LibreriaAplicacionFerreteria.Entidades;
+using LibreriaAplicacionFerreteria.Implementaciones;
+using LibreriaAplicacionFerreteria.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Tests;

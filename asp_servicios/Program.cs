@@ -1,6 +1,6 @@
-using LibreriaFerreteria.Entidades;
-using LibreriaFerreteria.Implementaciones;
-using LibreriaFerreteria.Interfaces;
+using LibreriaAplicacionFerreteria.Entidades;
+using LibreriaAplicacionFerreteria.Implementaciones;
+using LibreriaAplicacionFerreteria.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

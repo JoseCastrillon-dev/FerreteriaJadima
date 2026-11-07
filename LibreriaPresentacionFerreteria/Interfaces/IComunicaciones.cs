@@ -1,8 +1,4 @@
-﻿using LibreriaFerreteria.Entidades;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-
-namespace LibreriaFerreteria.Interfaces
+﻿namespace LibreriaPresentacionFerreteria.Interfaces
 {
     public interface IComunicaciones
     {

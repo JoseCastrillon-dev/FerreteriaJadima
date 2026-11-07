@@ -1,6 +1,6 @@
-﻿using lib_aplicaciones.nucleo;
-using LibreriaFerreteria.Implementaciones;
-using LibreriaFerreteria.Interfaces;
+﻿using LibreriaAplicacionFerreteria.nucleo;
+using LibreriaAplicacionFerreteria.Implementaciones;
+using LibreriaAplicacionFerreteria.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 try

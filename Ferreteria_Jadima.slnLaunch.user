@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "asp_servicios\\asp_servicios.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ConsolaFerreteria\\ConsolaFerreteria.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Front_Ferreteria\\Front_Ferreteria.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

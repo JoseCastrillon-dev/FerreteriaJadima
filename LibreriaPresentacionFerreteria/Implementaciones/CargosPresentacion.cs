@@ -1,7 +1,7 @@
-﻿using LibreriaFerreteria.Entidades;
-using LibreriaFerreteria.Interfaces;
+﻿using LibreriaAplicacionFerreteria.Entidades;
+using LibreriaPresentacionFerreteria.Interfaces;
 
-namespace aplicacion_ganado.interfaces
+namespace LibreriaPresentacionFerreteria.Interfaces
 {
     public class CargosPresentacion : ICargosPresentacion
     {

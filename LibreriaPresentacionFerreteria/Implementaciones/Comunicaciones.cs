@@ -1,14 +1,14 @@
-﻿using LibreriaFerreteria.Interfaces;
+﻿using LibreriaPresentacionFerreteria.Interfaces;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace presentacion_ganado.implementaciones
+namespace LibreriaPresentacionFerreteria.implementaciones
 {
     public class Comunicaciones : IComunicaciones
     {
         public async Task<T> Ejecutar<T>(string url, object entidad)
         {
-            url = "http://localhost:5130/" + url;
+            url = "http://localhost:5024/" + url;
 
             var body = new StringContent(
                 JsonConvert.SerializeObject(entidad),

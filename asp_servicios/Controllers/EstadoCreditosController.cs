@@ -1,6 +1,6 @@
 ﻿
-using LibreriaFerreteria.Entidades;
-using LibreriaFerreteria.Interfaces;
+using LibreriaAplicacionFerreteria.Entidades;
+using LibreriaAplicacionFerreteria.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace asp_servicios.Controllers

@@ -1,6 +1,6 @@
-﻿using LibreriaFerreteria.Entidades;
+﻿using LibreriaAplicacionFerreteria.Entidades;
 
-namespace LibreriaFerreteria.Interfaces
+namespace LibreriaPresentacionFerreteria.Interfaces
 {
     public interface IClientesPresentacion
     {
