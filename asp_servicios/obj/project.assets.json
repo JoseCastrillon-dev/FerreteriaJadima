@@ -3279,23 +3279,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\asp_servicios.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\asp_servicios\\asp_servicios.csproj",
       "projectName": "asp_servicios",
-      "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\asp_servicios.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollo\\Ferreteria_Jadima\\asp_servicios\\obj\\",
+      "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\asp_servicios\\asp_servicios.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\asp_servicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3304,7 +3304,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3312,8 +3311,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj": {
-              "projectPath": "D:\\Desarrollo\\Ferreteria_Jadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj"
+            "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj": {
+              "projectPath": "C:\\Users\\Administrador\\source\\repos\\FerreteriaJadima\\LibreriaAplicacionFerreteria\\LibreriaAplicacionFerreteria.csproj"
             }
           }
         }
@@ -3353,7 +3352,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

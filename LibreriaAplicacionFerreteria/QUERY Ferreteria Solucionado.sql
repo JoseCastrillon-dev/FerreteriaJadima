@@ -1,4 +1,3 @@
-/*
 CREATE DATABASE Ferreteria_Jadima;
 GO
 USE Ferreteria_Jadima;
@@ -153,4 +152,70 @@ CREATE TABLE [Entregas](
 	[fechaSalida] DATETIME NULL, 
 	[fechaLlegada] DATETIME NULL
 );
-*/
+
+CREATE TABLE [Auditoria] (
+    [idAuditoria]      BIGINT IDENTITY(1,1) NOT NULL,
+    [fecha]            DATETIME2(0)         NOT NULL
+		CONSTRAINT DF_Auditoria_fecha DEFAULT (SYSDATETIME()),
+    [usuario]          SYSNAME              NOT NULL
+        CONSTRAINT DF_Auditoria_usuario DEFAULT (SUSER_SNAME()),
+    [tablaAfectada]    SYSNAME              NOT NULL,
+    [operacion]        CHAR(1)              NOT NULL,
+    [claveRegistro]    NVARCHAR(100)        NOT NULL,
+    [datosAntes]       NVARCHAR(MAX)        NULL,
+    [datosDespues]     NVARCHAR(MAX)        NULL
+    CONSTRAINT PK_Auditoria
+        PRIMARY KEY (idAuditoria),
+    CONSTRAINT CK_Auditoria_operacion
+        CHECK (operacion IN ('I', 'U', 'D'))
+);
+GO
+
+CREATE TRIGGER TR_Personas_Auditoria ON Personas
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Auditoria (tablaAfectada,operacion,claveRegistro,datosAntes,datosDespues)
+    SELECT
+        'Personas',
+
+        CASE
+            WHEN d.id IS NULL THEN 'I'
+            WHEN i.id IS NULL THEN 'D'
+            ELSE 'U'
+        END,
+
+        CONVERT(NVARCHAR(100), COALESCE(i.id, d.id)),
+
+        CASE
+            WHEN d.id IS NOT NULL THEN
+                CONCAT(
+                    'id: ', d.id,
+                    ' | cedula: ', d.cedula,
+                    ' | nombre: ', d.nombre,
+                    ' | apellido: ', d.apellido,
+                    ' | numTelefono: ', d.numeroTelefono
+                )
+        END,
+
+        CASE
+            WHEN i.id IS NOT NULL THEN
+                CONCAT(
+                    'id: ', i.id,
+                    ' | cedula: ', i.cedula,
+                    ' | nombre: ', i.nombre,
+                    ' | apellido: ', i.apellido,
+                    ' | numTelefono: ', i.numeroTelefono
+                )
+        END
+
+    FROM inserted i
+    FULL OUTER JOIN deleted d
+        ON i.id = d.id;
+END;
+GO
+
+INSERT INTO [Personas] ([cedula],[nombre],[apellido],[numeroTelefono]) VALUES
+	(1011,'Simon','Paniagua','304')
