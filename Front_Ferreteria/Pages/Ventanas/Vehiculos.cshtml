@@ -1,0 +1,155 @@
+﻿    @page
+@model VehiculosModel
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+<form method="post"
+      enctype="multipart/form-data">
+      
+      
+    <div class="text-center">
+        
+
+               
+        @if (ViewData.ContainsKey("Mensaje"))
+        {
+            @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            ;
+        }
+
+        @if (Model.Formulario || Model.Borrar)
+        {
+            <input id="nmid"
+                   type="hidden"
+                   asp-for="@Model.Actual!.id" />
+        }
+
+
+        @if (Model.Formulario)
+        {
+            <div style="display: grid; grid-template-columns: 140px 1fr; gap: 10px; max-width: 450px; align-items: center;">
+                <h3 style="grid-column: span 2; margin-bottom: 5px;">Vehiculos</h3>
+
+                <label for="nmMatricula">Matricula</label>
+                <input id="nmMatricula" asp-for="@Model.Actual!.matricula" style="padding: 5px;" />
+
+                <label for="nmMarca">Marca</label>
+                <input id="nmMarca" asp-for="@Model.Actual!.marca" style="padding: 5px;" />
+
+                <label for="nmNumeroChasis">Numero Chasis</label>
+                <input id="nmNumeroChasis" asp-for="@Model.Actual!.numeroDeChasis" style="padding: 5px;" />
+
+                <label for="nmNumeroMotor">Numero Motor</label>
+                <input id="nmNumeroMotor" asp-for="@Model.Actual!.numeroMotor" style="padding: 5px;" />
+
+                <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
+                    <input type="submit" value="Agregar Vehiculo" class="btn btn-secondary" asp-page-handler="BtGuardar" />
+                    <input type="submit" value="Cancelar" class="btn btn-secondary" asp-page-handler="BtBuscar" />
+                </div>
+            </div>
+        }
+
+        @if (Model.Borrar)
+        {
+            <div class="popup">
+                <div class="pp_del_inner">
+                    <h3>Mensaje</h3>
+
+                    <h4>
+                        ¿Desea borrar la entidad...?
+                    </h4>
+                    <h6>
+                        @Model.Actual!.matricula,
+                        @Model.Actual!.marca,
+                    </h6>
+                    <input type="submit"
+                           value="Cancelar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBuscar" />
+
+
+                    <input type="submit"
+                           value="Borrar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBorrar" />
+                </div>
+            </div>
+        }
+
+        @if (!Model.Formulario)
+        {
+
+            <h1 class="display-4 text-dark">Vehiculos</h1>
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+
+
+
+                <input type="submit"
+                       value="Nuevo Vehiculo"
+                       class="btn btn-secondary"
+                       asp-page-handler="BtNuevo" />
+
+                <div>
+                    <button asp-page-handler="BtBuscar">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Rx8reCe8jFoPAqd8gp0fb_TVuQQ_Vy4ObziJHpT1zkfUtYn7bX9BsWlf&s=10"
+                             alt="Descripción de la imagen" width="24" height="24" />
+
+                    </button>
+                    <input id="flMatricula"
+                           placeholder="Matricula"
+                           asp-for="@Model.Filtro!.matricula" />
+
+
+                </div>
+
+
+            </div>
+
+            <br />
+            <br />
+
+
+            <div class="containers_vn panel panel-default">
+                <table class="tb_data table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Matricula</th>
+                        <th>Marca</th>
+                        <th>Numero Chasis</th>
+                        <th>Numero Motor</th>
+
+
+
+                    </tr>
+                    @if (Model != null && Model.Lista != null)
+                    {
+                        foreach (var elemento in Model.Lista)
+                        {
+                            <tr>
+                                <td>@elemento.matricula</td>
+                                <td>@elemento.marca</td>
+                                <td>@elemento.numeroDeChasis</td>
+                                <td>@elemento.numeroMotor</td>
+
+                                <td>
+                                    <input type="submit"
+                                           value="Editar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtEditar"
+                                           asp-route-data="@elemento.id" />
+                                    <input type="submit"
+                                           value="Borrar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtPregBorrar"
+                                           asp-route-data="@elemento.id" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+
+    </div>
+</form>
