@@ -7,7 +7,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
 {
     public class Clientes
     {
-        public int id {  get; set; }
+        public int id { get; set; }
         public int id_persona { get; set; }
 
         [NotMapped] public List<Ventas>? Ventas { get; set; }

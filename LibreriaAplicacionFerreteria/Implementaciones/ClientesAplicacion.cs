@@ -49,8 +49,6 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             if (entidad.id != 0)
                 throw new Exception("Ya se guardo");
 
-
-
             this.IConexion.Clientes!.Add(entidad!);
             this.IConexion.SaveChanges();
             return entidad;

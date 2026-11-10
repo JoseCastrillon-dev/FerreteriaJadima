@@ -85,7 +85,7 @@ public sealed class PruebaClientes
     public void Borrar()
     {
         // Como ya están siendo rastreados por la conexión, los removemos directamente sin buscar a ciegas
-        if (this.cliente != null && this.cliente.id != 0)
+        if (this.cliente != null && this.cliente.nombre != 0)
         {
             conexion.Clientes!.Remove(this.cliente);
             conexion.SaveChanges();
