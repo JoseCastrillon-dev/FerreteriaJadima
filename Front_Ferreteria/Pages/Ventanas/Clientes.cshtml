@@ -21,7 +21,7 @@
         {
             <input id="nmid"
                    type="hidden"
-                   asp-for="@Model.Actual!.id_persona" />
+                   asp-for="@Model.Actual!.id" />
         }
 
 
@@ -30,11 +30,19 @@
             <div style="display: grid; grid-template-columns: 140px 1fr; gap: 10px; max-width: 450px; align-items: center;">
                 <h3 style="grid-column: span 2; margin-bottom: 5px;">Clientes</h3>
 
-                <label for="nmnombre">id</label>
-                <input id="nmnombre" asp-for="@Model.Actual!.id" style="padding: 5px;" />
+                <label for="nmPersonaNombre">Persona</label>
+                <select id="nmPersonaNombre" asp-for="@Model.Actual!.id_persona" style="padding: 5px;">
+                    <option value="">Seleccione una persona</option>
 
-                <label for="nmnumerodetelefono">Persona</label>
-                <input id="nmnumerodetelefono" asp-for="@Model.Actual!.id_persona" style="padding: 5px;" />
+                    @if (Model.ListaPersonas != null)
+                    {
+                        @foreach (var persona in Model.ListaPersonas)
+                        {
+                            <option value="@persona.id"> @persona.id / @persona.nombre</option>
+
+                        }
+                    }
+                </select>
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
                     <input type="submit" value="Agregar Cliente" class="btn btn-secondary" asp-page-handler="BtGuardar" />
@@ -42,6 +50,7 @@
                 </div>
             </div>
         }
+
 
         @if (Model.Borrar)
         {
@@ -53,8 +62,7 @@
                         ¿Desea borrar la entidad...?
                     </h4>
                     <h6>
-                        @Model.Actual!.id,
-                        @Model.Actual!.id_persona,
+                        @Model.Actual!._persona.nombre
                     </h6>
                     <input type="submit"
                            value="Cancelar"
@@ -92,8 +100,8 @@
 
                     </button>
                     <input id="flId"
-                           placeholder="Id"
-                           asp-for="@Model.Filtro!.id" />
+                           placeholder="Nombre Persona"
+                           asp-for="@Model.Filtro!._persona.nombre" />
 
 
                 </div>
@@ -109,7 +117,7 @@
                 <table class="tb_data table table-striped table-bordered table-hover">
                     <tr>
                         <th>id</th>
-                        <th>id_persona</th>
+                        <th>Persona Nombre</th>
 
 
 
@@ -121,7 +129,7 @@
                         {
                             <tr>
                                 <td>@elemento.id</td>
-                                <td>@elemento.id_persona</td>
+                                <td>@elemento._persona.nombre</td>
 
                                 <td>
                                     <input type="submit"

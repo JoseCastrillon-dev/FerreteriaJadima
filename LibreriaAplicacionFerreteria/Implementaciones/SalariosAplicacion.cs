@@ -39,7 +39,10 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             return this.IConexion.Salarios!
                 .Include(x => x._cargo)
                 .Include(x => x._tiposDePago)
-                .Where(x => x.id_cargo == entidad.id_cargo).ToList();
+                .Where(x => x._cargo!.nombre!.Contains(entidad._cargo!.nombre!))
+                .Where(x => x._tiposDePago!.metodo!.Contains(entidad._tiposDePago!.metodo!))
+                .Take(10)
+                .ToList();
         }
 
         public List<Salarios> Consultar()

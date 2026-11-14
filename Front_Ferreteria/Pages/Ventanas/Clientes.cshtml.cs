@@ -9,11 +9,14 @@ namespace Front_Ferreteria.Pages.Ventanas
     public class ClientesModel : PageModel
     {
         private IClientesPresentacion IClientesPresentacion;
+        private IPersonasPresentacion IPersonasPresentacion;
 
-        public ClientesModel(IClientesPresentacion iClientesPresentacion)
+        public ClientesModel(IClientesPresentacion IClientesPresentacion, IPersonasPresentacion IPersonasPresentacion)
         {
-            this.IClientesPresentacion = iClientesPresentacion;
+            this.IClientesPresentacion = IClientesPresentacion;
+            this.IPersonasPresentacion = IPersonasPresentacion;
             this.Filtro = new Clientes();
+            Filtro._persona = new Personas();
         }
 
         [BindProperty] public List<Clientes> Lista { get; set; }
@@ -21,6 +24,10 @@ namespace Front_Ferreteria.Pages.Ventanas
         [BindProperty] public Clientes? Actual { get; set; }
         [BindProperty] public bool Formulario { get; set; } = false;
         [BindProperty] public bool Borrar { get; set; } = false;
+        [BindProperty] public List<Personas> ListaPersonas { get; set; }
+
+
+
 
         public void OnGet()
         {
@@ -31,7 +38,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
-                this.Filtro!.id = this.Filtro!.id;
+
+                if (this.Filtro!._persona == null)
+                {
+                    this.Filtro._persona = new Personas();
+                }
+
+                this.Filtro!._persona!.nombre = this.Filtro!._persona.nombre ?? "";
                 Lista = this.IClientesPresentacion.Buscar(this.Filtro!);
             }
             catch (Exception ex)
@@ -44,15 +57,19 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+
+                this.Actual!._persona = null;
+
                 if (this.Actual!.id == 0)
                     this.Actual = this.IClientesPresentacion.Insertar(this.Actual!);
                 else
                     this.Actual = this.IClientesPresentacion.Actualizar(this.Actual!);
-                OnPostBtBuscar();
+                    OnPostBtBuscar();
             }
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                CargarPersonas();
             }
             finally
             {
@@ -66,6 +83,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             {
                 Formulario = true;
                 this.Actual = new Clientes();
+                CargarPersonas();
             }
             catch (Exception ex)
             {
@@ -77,8 +95,15 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+
+                if (this.Actual!._persona == null)
+                {
+                    this.Actual._persona = new Personas();
+                }
+
                 Formulario = true;
                 OnPostBtBuscar();
+                CargarPersonas();
                 Actual = this.Lista.FirstOrDefault(x => x.id == Convert.ToInt32(data));
             }
             catch (Exception ex)
@@ -117,6 +142,12 @@ namespace Front_Ferreteria.Pages.Ventanas
             {
                 OnPostBtBuscar();
             }
+        }
+
+        private void CargarPersonas()
+        {
+            var filtroPersona = new Personas { nombre = "" };
+            this.ListaPersonas = this.IPersonasPresentacion.Buscar(filtroPersona);
         }
 
 

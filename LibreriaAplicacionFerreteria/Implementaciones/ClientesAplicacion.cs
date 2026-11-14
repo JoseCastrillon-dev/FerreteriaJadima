@@ -36,12 +36,15 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Clientes> Buscar(Clientes entidad)
         {
             return this.IConexion.Clientes!
-                .Include(x => x._persona).Where(x => x.id_persona == entidad.id_persona!).ToList();
+                .Include(x => x._persona)
+                .Where(x => x._persona!.nombre!.Contains(entidad._persona!.nombre!))
+                .Take(10)
+                .ToList();
         }
 
         public List<Clientes> Consultar()
         {
-            return this.IConexion.Clientes!.ToList();
+            return this.IConexion.Clientes!.Include(x => x._persona!.nombre).ToList();
         }
 
         public Clientes Insertar(Clientes entidad)

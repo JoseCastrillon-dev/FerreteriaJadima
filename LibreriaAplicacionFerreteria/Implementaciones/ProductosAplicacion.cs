@@ -56,6 +56,7 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             if (Validar(entidad))
                 throw new Exception("Falta informacion");
 
+
             this.IConexion.Productos!.Add(entidad!);
             this.IConexion.SaveChanges();
             return entidad;
