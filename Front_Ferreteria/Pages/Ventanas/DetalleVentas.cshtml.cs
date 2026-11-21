@@ -17,7 +17,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             this.IProductosPresentacion = IProductosPresentacion;
 
             this.Filtro = new DetalleVentas();
-            this.Filtro._producto = new Productos();
+            this.Filtro!._producto = new Productos();
         }
 
         [BindProperty] public List<DetalleVentas> Lista { get; set; }

@@ -40,9 +40,9 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             return this.IConexion.Cuotas!
                 .Include(x => x._credito)
                 .Include(y => y._tipoDePago)
-                .Include(x => x._credito._estadoCredito)
-                .Where(x => x._credito._estadoCredito.estado
-                .Contains(x._credito._estadoCredito.estado))
+                .Include(x => x._credito!._estadoCredito)
+                .Where(x => x._credito!._estadoCredito!.estado
+                .Contains(entidad._credito._estadoCredito.estado))
                 .Take(10)
                 .ToList();
         }

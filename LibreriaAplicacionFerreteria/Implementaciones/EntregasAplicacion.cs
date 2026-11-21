@@ -40,7 +40,7 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             return this.IConexion.Entregas!
                 .Include(x => x._domicilio)
                 .Include(z => z._empleado)
-                .Where(x => x._domicilio!.direccion.Contains(x._domicilio.direccion))
+                .Where(x => x._domicilio!.direccion.Contains(entidad._domicilio.direccion))
                 .ToList();
         }
 

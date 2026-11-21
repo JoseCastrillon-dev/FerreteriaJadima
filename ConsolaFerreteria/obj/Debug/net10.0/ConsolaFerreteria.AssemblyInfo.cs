@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsolaFerreteria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2c3a0771827341631225e46e6e855a09226b5b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdbc4536bbc7d9a76364185f1c659c71447be7c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsolaFerreteria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsolaFerreteria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

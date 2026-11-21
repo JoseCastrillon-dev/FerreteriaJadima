@@ -44,7 +44,7 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 .Include(x2 => x2._cliente)
                 .Include(x => x._detalleVenta!._producto)
                 .Include(x => x._cliente!._persona)
-                .Where(x => x._detalleVenta!._producto!.codigo!.Contains(x._detalleVenta._producto.codigo))
+                .Where(x => x._detalleVenta!._producto!.codigo!.Contains(entidad._detalleVenta._producto.codigo))
                 .Take(10)
                 .ToList();
         }
