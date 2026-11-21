@@ -10,6 +10,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id { get; set; }
         public String? estado { get; set; }
 
+        public String? imagen { get; set; }
         [NotMapped] public List<Creditos>? Creditos { get; set; }
     }
 }

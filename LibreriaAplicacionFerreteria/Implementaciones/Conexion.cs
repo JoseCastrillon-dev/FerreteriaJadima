@@ -35,5 +35,7 @@ namespace LibreriaAplicacionFerreteria.Implementaciones
         public DbSet<TiposDePagos>? TiposDePagos { get; set; }
         public DbSet<Vehiculos>? Vehiculos { get; set; }
         public DbSet<Ventas>? Ventas { get; set; }
+
+        public DbSet<Auditoria>? Auditoria { get; set; }
     }
 }

@@ -19,6 +19,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
 
             var entry = this.IConexion!.Entry<DetalleCompras>(entidad);
             entry.State = EntityState.Modified;
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Actualizo ",
+                fecha = DateTime.Now,
+                tablaAfectada = "DetalleCompras"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion!.SaveChanges();
             return entidad;
         }
@@ -29,12 +36,27 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("No se ha guardo");
 
             this.IConexion.DetalleCompras!.Remove(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Borro ",
+                fecha = DateTime.Now,
+                tablaAfectada = "DetalleCompras"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
         public List<DetalleCompras> Buscar(DetalleCompras entidad)
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Busco ",
+                fecha = DateTime.Now,
+                tablaAfectada = "DetalleCompras"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.DetalleCompras!
                 .Include(x => x._producto)
                 .Include(x => x._compra)
@@ -46,6 +68,14 @@ namespace LibreriaAplicacionFerreteria.Interfaces
 
         public List<DetalleCompras> Consultar()
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Consulto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "DetalleCompras"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.DetalleCompras!
                 .Include(x => x._producto)
                 .Include(x => x._compra)
@@ -59,6 +89,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("Ya se guardo");
 
             this.IConexion.DetalleCompras!.Add(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Inserto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "DetalleCompras"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }

@@ -13,6 +13,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public DateTime? fechaDePago { get; set; }
         public decimal valorDeCuota { get; set; }
         public int numeroDeCuota { get; set; }
+        public String? imagen { get; set; }
 
         [ForeignKey("id_credito")] public Creditos? _credito { get; set; }
         [ForeignKey("id_tipoDePago")] public TiposDePagos? _tipoDePago { get; set; }

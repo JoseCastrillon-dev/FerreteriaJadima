@@ -5,7 +5,8 @@ using LibreriaPresentacionFerreteria.implementaciones;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
-    builder.Services.AddScoped<IComunicaciones, Comunicaciones>();
+builder.Services.AddControllers();
+builder.Services.AddScoped<IComunicaciones, Comunicaciones>();
 
     builder.Services.AddScoped<IPersonasPresentacion, PersonasPresentacion>();
     builder.Services.AddScoped<IEstadoCreditosPresentacion, EstadoCreditosPresentacion>();
@@ -27,6 +28,15 @@ builder.Services.AddRazorPages();
     builder.Services.AddScoped<ICuotasPresentacion, CuotasPresentacion>();
     builder.Services.AddScoped<IDomiciliosPresentacion, DomiciliosPresentacion>();
     builder.Services.AddScoped<IEntregasPresentacion, EntregasPresentacion>();
+    builder.Services.AddScoped<IAuditoriaPresentacion, AuditoriaPresentacion>();
+
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddRazorPages();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+});
 
 var app = builder.Build();
 
@@ -42,5 +52,5 @@ app.UseAuthorization();
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
-
+app.UseSession();
 app.Run();

@@ -14,6 +14,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_cliente { get; set; }
         public decimal iva { get; set; }
         public decimal total { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Creditos>? Creditos { get; set; }
         [NotMapped] public List<Domicilios>? Domicilios { get; set; }

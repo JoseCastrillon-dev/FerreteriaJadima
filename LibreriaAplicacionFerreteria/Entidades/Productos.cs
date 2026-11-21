@@ -13,6 +13,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int cantidad { get; set; }
         public String? nombre { get; set; }
         public decimal valor { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<DetalleCompras>? DetalleCompras { get; set; }
         [NotMapped] public List<DetalleVentas>? DetalleVentas { get; set; }

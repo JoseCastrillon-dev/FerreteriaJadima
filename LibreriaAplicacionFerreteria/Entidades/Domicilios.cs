@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_vehiculo { get; set; }
         public String? numeroDeTelefono { get; set; }
         public String? direccion { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Entregas>? Entregas { get; set; }
 

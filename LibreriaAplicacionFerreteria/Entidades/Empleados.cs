@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_salario { get; set; }
         public String? carnet {  get; set; }
         public String? Genero { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Entregas>? Entregas { get; set; }
         [NotMapped] public List<Estanterias>? Estanterias { get; set; }

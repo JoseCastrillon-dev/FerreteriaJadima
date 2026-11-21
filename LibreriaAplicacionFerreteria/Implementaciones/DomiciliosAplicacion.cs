@@ -22,6 +22,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
 
             var entry = this.IConexion!.Entry<Domicilios>(entidad);
             entry.State = EntityState.Modified;
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Actualizo ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Domicilios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion!.SaveChanges();
             return entidad;
         }
@@ -32,12 +39,27 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("No se ha guardo");
 
             this.IConexion.Domicilios!.Remove(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Borro ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Domicilios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
         public List<Domicilios> Buscar(Domicilios entidad)
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Busco ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Domicilios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.Domicilios!
                 .Include(x => x._venta)
                 .Include(x => x._vehiculos)
@@ -49,6 +71,14 @@ namespace LibreriaAplicacionFerreteria.Interfaces
 
         public List<Domicilios> Consultar()
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Consulto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Domicilios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.Domicilios!.ToList();
         }
 
@@ -61,6 +91,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("Falta informacion");
 
             this.IConexion.Domicilios!.Add(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Inserto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Domicilios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }

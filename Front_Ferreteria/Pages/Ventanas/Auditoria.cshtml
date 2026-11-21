@@ -1,0 +1,74 @@
+﻿    @page
+@model AuditoriaModel
+@{
+    ViewData["Title"] = "Auditorias";
+}
+
+<form method="post"
+      enctype="multipart/form-data">
+      
+      
+    <div class="text-center">
+        
+
+               
+        @if (ViewData.ContainsKey("Mensaje"))
+        {
+            @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            ;
+        }
+
+
+        @if (!Model.Formulario)
+        {
+
+            <h1 class="display-4 text-dark">Auditoria</h1>
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+
+                <div>
+                    <button asp-page-handler="BtBuscar">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Rx8reCe8jFoPAqd8gp0fb_TVuQQ_Vy4ObziJHpT1zkfUtYn7bX9BsWlf&s=10"
+                             alt="Descripción de la imagen" width="24" height="24" />
+
+                    </button>
+                    <input id="flTablaAfectada"
+                           placeholder="Tabla Afectada o Descripción"
+                           asp-for="@Model.Filtro!.Desc "/>
+
+
+                </div>
+
+
+            </div>
+
+            <br />
+            <br />
+
+
+            <div class="containers_vn panel panel-default">
+                <table class="tb_data table table-striped table-bordered table-hover">
+                    <tr>
+
+                        <th>Descripción</th>
+                        <th>Fecha</th>
+                        <th>Tabla Afectada</th>
+
+                    </tr>
+                    @if (Model != null && Model.Lista != null)
+                    {
+                        foreach (var elemento in Model.Lista)
+                        {
+                            <tr>
+                                <td>@elemento.Desc</td>
+                                <td>@elemento.fecha</td>
+                                <td>@elemento.tablaAfectada</td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+    </div>
+</form>

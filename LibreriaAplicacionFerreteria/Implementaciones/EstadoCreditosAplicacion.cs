@@ -22,6 +22,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
 
             var entry = this.IConexion!.Entry<EstadoCreditos>(entidad);
             entry.State = EntityState.Modified;
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Actualizo ",
+                fecha = DateTime.Now,
+                tablaAfectada = "EstadoCreditos"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion!.SaveChanges();
             return entidad;
         }
@@ -32,19 +39,42 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("No se ha guardo");
 
             this.IConexion.EstadoCreditos!.Remove(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Borro ",
+                fecha = DateTime.Now,
+                tablaAfectada = "EstadoCreditos"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
         public List<EstadoCreditos> Buscar(EstadoCreditos entidad)
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Busco ",
+                fecha = DateTime.Now,
+                tablaAfectada = "EstadoCreditos"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.EstadoCreditos!
-                .Where(x => x.estado!.Contains(entidad.estado!)
-).ToList();
+                .Where(x => x.estado!.Contains(entidad.estado!))
+                .ToList();
         }
 
         public List<EstadoCreditos> Consultar()
         {
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Consulto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "EstadoCreditos"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
             return this.IConexion.EstadoCreditos!.ToList();
         }
 
@@ -57,6 +87,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
                 throw new Exception("Falta informacion");
 
             this.IConexion.EstadoCreditos!.Add(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Inserto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "EstadoCreditos"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }

@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_estadoCredito { get; set; }
         public DateTime? fechaPrestamo { get; set; }
         public decimal valorPrestamo { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Cuotas>? Cuotas { get; set; }
 

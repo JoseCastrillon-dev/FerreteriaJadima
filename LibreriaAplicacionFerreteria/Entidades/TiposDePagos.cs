@@ -9,6 +9,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
     {
         public int id {  get; set; }
         public String? metodo { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Cuotas>? Cuotas { get; set; }
         [NotMapped] public List<Salarios>? Salarios { get; set; }

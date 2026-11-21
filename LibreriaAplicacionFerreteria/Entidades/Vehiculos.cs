@@ -13,6 +13,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public String? marca { get; set; }
         public String? numeroDeChasis { get; set; }
         public String? numeroMotor { get; set; }
+        public String? imagen { get; set; }
 
         [NotMapped] public List<Domicilios>? Domicilios { get; set; }
     }

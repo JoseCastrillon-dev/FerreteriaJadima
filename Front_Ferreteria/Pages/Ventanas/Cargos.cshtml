@@ -33,6 +33,20 @@
 
                 <label for="nmNombre">Nombre</label>
                 <input id="nmNombre" asp-for="@Model.Actual!.nombre" style="padding: 5px;" />
+                <label>
+                    Imagen
+                </label>
+                @if (Model.Actual!.imagen != null)
+                {
+                    <img height="100"
+                        width="100"
+                        src="data:image;base64,
+                            @System.Convert.ToBase64String(
+                            Convert.FromBase64String(
+                            Model.Actual!.imagen))" />
+                }
+                <input type="file"
+                    asp-for="FormFile" />
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
                     <input type="submit" value="Agregar Cargo" class="btn btn-secondary" asp-page-handler="BtGuardar"/>
@@ -107,14 +121,23 @@
                     <tr>
 
                         <th>Nombre</th>
-
+                        <th>Imagen</th>
                     </tr>
                     @if (Model != null && Model.Lista != null)
                     {
                         foreach (var elemento in Model.Lista)
                         {
                             <tr>
-                                <td>@elemento.nombre</td>
+                                <td>@elemento.nombre</td><td>
+                                    @if (elemento.imagen != null)
+                                    {
+                                        <img height="60"
+                                             width="60"
+                                             src="data:image;base64,
+                                                @System.Convert.ToBase64String(
+                                                Convert.FromBase64String(elemento.imagen))" />
+                                    }
+                                </td>
                                 <td>
                                     <input type="submit"
                                            value="Editar"

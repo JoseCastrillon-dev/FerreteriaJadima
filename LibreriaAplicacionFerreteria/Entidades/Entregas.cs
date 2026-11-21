@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_empleado { get; set; }
         public DateTime? fechaSalida { get; set; }
         public DateTime? fechaLlegada { get; set; }
+        public String? imagen { get; set; }
 
         [ForeignKey("id_domicilio")] public Domicilios? _domicilio { get; set; }
         [ForeignKey("id_empleado")] public Empleados? _empleado { get; set; }

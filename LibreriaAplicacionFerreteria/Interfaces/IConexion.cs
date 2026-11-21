@@ -28,6 +28,7 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         DbSet<TiposDePagos>? TiposDePagos { get; set; }
         DbSet<Vehiculos>? Vehiculos { get; set; }
         DbSet<Ventas>? Ventas { get; set; }
+        DbSet<Auditoria>? Auditoria { get; set; }
 
         EntityEntry<T> Entry<T>(T entity) where T : class;
         int SaveChanges();

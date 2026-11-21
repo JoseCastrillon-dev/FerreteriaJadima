@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_producto { get; set; }
         public String? codigo { get; set; }
         public int Stock { get; set; }
+        public String? imagen { get; set; }
 
         [ForeignKey("id_empleado")] public Empleados? _empleado { get; set; }
         [ForeignKey("id_producto")] public Productos? _producto { get; set; }

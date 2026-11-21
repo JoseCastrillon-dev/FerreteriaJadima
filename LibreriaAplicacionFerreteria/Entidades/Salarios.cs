@@ -12,6 +12,7 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id_tiposDePago { get; set; }
         public decimal valorHora { get; set; }
         public int horasTrabajadas { get; set; }
+        public String? imagen { get; set; }
         [NotMapped] public List<Empleados>? Empleados { get; set; }
 
        [ForeignKey("id_cargo")] public Cargos? _cargo { get; set; }

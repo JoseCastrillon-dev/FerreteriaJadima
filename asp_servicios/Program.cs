@@ -27,6 +27,7 @@ builder.Services.AddScoped<ICreditosAplicacion, CreditosAplicacion>();
 builder.Services.AddScoped<ICuotasAplicacion, CuotasAplicacion>();
 builder.Services.AddScoped<IDomiciliosAplicacion, DomiciliosAplicacion>();
 builder.Services.AddScoped<IEntregasAplicacion, EntregasAplicacion>();
+builder.Services.AddScoped<IAuditoriaAplicacion, AuditoriaAplicacion>();
 
 
 
@@ -41,4 +42,5 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+app.MapGet("/", () => "");
 app.Run();

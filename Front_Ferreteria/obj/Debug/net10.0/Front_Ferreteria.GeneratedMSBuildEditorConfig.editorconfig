@@ -16,125 +16,129 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Front_Ferreteria
 build_property.RootNamespace = Front_Ferreteria
-build_property.ProjectDir = D:\Desarrollo\Ferreteria_Jadima\Front_Ferreteria\
+build_property.ProjectDir = C:\Users\Administrador\source\repos\FerreteriaJadima\Front_Ferreteria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Desarrollo\Ferreteria_Jadima\Front_Ferreteria
+build_property.MSBuildProjectDirectory = C:\Users\Administrador\source\repos\FerreteriaJadima\Front_Ferreteria
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Emergentes/Mensajes.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Emergentes/Mensajes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbnRlc1xNZW5zYWplcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Error.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Index.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Privacy.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Cargos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Auditoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQXVkaXRvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Cargos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ2FyZ29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Clientes.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Clientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ2xpZW50ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Compras.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Compras.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ29tcHJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Creditos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ3JlZGl0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Cuotas.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Cuotas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcQ3VvdGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/DetalleCompras.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/DetalleCompras.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRGV0YWxsZUNvbXByYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/DetalleVentas.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/DetalleVentas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRGV0YWxsZVZlbnRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Domicilios.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Domicilios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRG9taWNpbGlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Empleados.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Empleados.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRW1wbGVhZG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Entregas.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Entregas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRW50cmVnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/EstadoCreditos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/EstadoCreditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YWRvQ3JlZGl0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Estanterias.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Estanterias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcRXN0YW50ZXJpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Personas.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Personas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUGVyc29uYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Productos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvZHVjdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Proveedores.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Proveedores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcUHJvdmVlZG9yZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Salarios.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Salarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcU2FsYXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Tipos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Tipos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVGlwb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/TiposDePagos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/TiposDePagos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVGlwb3NEZVBhZ29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Vehiculos.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Vehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVmVoaWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Ventanas/Ventas.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Ventanas/Ventas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVudGFuYXNcVmVudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/_ViewImports.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/_ViewStart.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Desarrollo/Ferreteria_Jadima/Front_Ferreteria/Pages/Shared/_Layout.cshtml]
+[C:/Users/Administrador/source/repos/FerreteriaJadima/Front_Ferreteria/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ovyrr1fmnm
