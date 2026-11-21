@@ -31,8 +31,19 @@
             <div style="display: grid; grid-template-columns: 140px 1fr; gap: 10px; max-width: 450px; align-items: center;">
                 <h3 style="grid-column: span 2; margin-bottom: 5px;">Productos</h3>
 
-                <label for="nmIdTipo">Id Tipo</label>
-                <input id="nmIdTipo" asp-for="@Model.Actual!.id_tipo" style="padding: 5px;" />
+                <label for="nmTiposNombre">Tipos</label>
+                <select id="nmTiposNombre" asp-for="@Model.Actual!.id_tipo" style="padding: 5px;">
+                    <option value="">Seleccione un tipo</option>
+
+                    @if (Model.ListaTipos != null)
+                    {
+                        @foreach (var tipos in Model.ListaTipos)
+                        {
+                            <option value="@tipos.id"> @tipos.id / @tipos.nombre</option>
+
+                        }
+                    }
+                </select>
 
                 <label for="nmCodigo">Codigo</label>
                 <input id="nmCodigo" asp-for="@Model.Actual!.codigo" style="padding: 5px;" />
@@ -91,7 +102,7 @@
 
 
                 <input type="submit"
-                       value="Nueva Producto"
+                       value="Nuevo Producto"
                        class="btn btn-secondary"
                        asp-page-handler="BtNuevo" />
 

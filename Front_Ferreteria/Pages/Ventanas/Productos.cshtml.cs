@@ -9,11 +9,14 @@ namespace Front_Ferreteria.Pages.Ventanas
     public class ProductosModel : PageModel
     {
         private IProductosPresentacion IProductosPresentacion;
+        private ITiposPresentacion ITiposPresentacion;
 
-        public ProductosModel(IProductosPresentacion iProductosPresentacion)
+        public ProductosModel(IProductosPresentacion iProductosPresentacion, ITiposPresentacion iTiposPresentacion)
         {
             this.IProductosPresentacion = iProductosPresentacion;
+            this.ITiposPresentacion = iTiposPresentacion;
             this.Filtro = new Productos();
+            this.Filtro._tipo = new Tipos();
         }
 
         [BindProperty] public List<Productos> Lista { get; set; }
@@ -21,6 +24,8 @@ namespace Front_Ferreteria.Pages.Ventanas
         [BindProperty] public Productos? Actual { get; set; }
         [BindProperty] public bool Formulario { get; set; } = false;
         [BindProperty] public bool Borrar { get; set; } = false;
+        [BindProperty] public List<Tipos> ListaTipos { get; set; }
+
 
 
         public void OnGet()
@@ -32,6 +37,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+
+                if (this.Filtro!._tipo == null)
+                {
+                    this.Filtro._tipo = new Tipos();
+                }
+
+
                 this.Filtro!.codigo = this.Filtro!.codigo ?? "";
                 Lista = this.IProductosPresentacion.Buscar(this.Filtro!);
             }
@@ -46,6 +58,9 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+
+                this.Actual!._tipo = null;
+
                 if (this.Actual!.id == 0)
                     this.Actual = this.IProductosPresentacion.Insertar(this.Actual!);
                 else
@@ -55,6 +70,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+                cargarTipos();
             }
             finally
             {
@@ -68,6 +84,8 @@ namespace Front_Ferreteria.Pages.Ventanas
             {
                 Formulario = true;
                 this.Actual = new Productos();
+                cargarTipos();
+
             }
             catch (Exception ex)
             {
@@ -79,8 +97,15 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+
+                if (this.Actual!._tipo == null)
+                {
+                    this.Actual._tipo = new Tipos();
+                }
                 Formulario = true;
                 OnPostBtBuscar();
+                cargarTipos();
+
                 Actual = this.Lista.FirstOrDefault(x => x.id == Convert.ToInt32(data));
             }
             catch (Exception ex)
@@ -121,6 +146,11 @@ namespace Front_Ferreteria.Pages.Ventanas
             }
         }
 
+        private void cargarTipos()
+        {
+            var filtroTipos = new Tipos { nombre = "" };
+            this.ListaTipos = this.ITiposPresentacion.Buscar(filtroTipos);
+        }
 
     }
 }

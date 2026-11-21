@@ -38,7 +38,8 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         {
             return this.IConexion.Compras!
                 .Include(x => x._empleado).Include(x => x._proveedor)
-                .Where(x => x.id_empleado == entidad.id_empleado).ToList();
+                .Where(x => x._empleado!.carnet!.Contains(entidad._empleado!.carnet!)).Take(10).ToList();
+                
         }
 
         public List<Compras> Consultar()

@@ -38,9 +38,15 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Ventas> Buscar(Ventas entidad)
         {
             return this.IConexion.Ventas!
-                .Include(x => x._detalleVenta).Include(y => y._tipoDePago).Include(z => z._empleado)
+                .Include(x => x._detalleVenta)
+                .Include(y => y._tipoDePago)
+                .Include(z => z._empleado)
                 .Include(x2 => x2._cliente)
-                .Where(x => x.id_detalleVenta == entidad.id_detalleVenta).ToList();
+                .Include(x => x._detalleVenta!._producto)
+                .Include(x => x._cliente!._persona)
+                .Where(x => x._detalleVenta!._producto!.codigo!.Contains(x._detalleVenta._producto.codigo))
+                .Take(10)
+                .ToList();
         }
 
         public List<Ventas> Consultar()

@@ -38,8 +38,13 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Cuotas> Buscar(Cuotas entidad)
         {
             return this.IConexion.Cuotas!
-                .Include(x => x._credito).Include(y => y._tipoDePago)
-                .Where(x => x.id_credito == entidad.id_credito).ToList();
+                .Include(x => x._credito)
+                .Include(y => y._tipoDePago)
+                .Include(x => x._credito._estadoCredito)
+                .Where(x => x._credito._estadoCredito.estado
+                .Contains(x._credito._estadoCredito.estado))
+                .Take(10)
+                .ToList();
         }
 
         public List<Cuotas> Consultar()

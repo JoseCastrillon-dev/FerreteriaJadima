@@ -36,8 +36,14 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Creditos> Buscar(Creditos entidad)
         {
             return this.IConexion.Creditos!
-                .Include(x => x._venta).Include(x => x._estadoCredito)
-                .Where(x => x.idVenta == entidad.idVenta).ToList();
+                .Include(x => x._venta)
+                .Include(x => x._estadoCredito)
+                .Include(x => x._venta!._detalleVenta)
+                .Include(x => x._venta!._cliente)
+                .Include(x => x._venta!._cliente!._persona)
+                .Where(x => x._venta!._cliente!._persona!.nombre.Contains(x._venta._cliente._persona.nombre))
+                .Take(10)
+                .ToList();
         }
 
         public List<Creditos> Consultar()

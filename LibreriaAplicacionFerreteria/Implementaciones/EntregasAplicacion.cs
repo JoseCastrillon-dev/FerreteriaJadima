@@ -38,8 +38,10 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Entregas> Buscar(Entregas entidad)
         {
             return this.IConexion.Entregas!
-                .Include(x => x._domicilio).Include(z => z._empleado)
-                .Where(x => x.id_domicilio == entidad.id_domicilio).ToList();
+                .Include(x => x._domicilio)
+                .Include(z => z._empleado)
+                .Where(x => x._domicilio!.direccion.Contains(x._domicilio.direccion))
+                .ToList();
         }
 
         public List<Entregas> Consultar()

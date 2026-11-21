@@ -37,7 +37,9 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         {
             return this.IConexion.DetalleVentas!
                 .Include(x => x._producto)
-                .Where(x => x.id_producto == entidad.id_producto).ToList();
+                .Where(x => x._producto!.codigo!.Contains(x._producto!.codigo!))
+                .Take(10)
+                .ToList();
         }
 
         public List<DetalleVentas> Consultar()

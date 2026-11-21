@@ -36,13 +36,21 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<DetalleCompras> Buscar(DetalleCompras entidad)
         {
             return this.IConexion.DetalleCompras!
-                .Include(x => x._producto).Include(x => x._compra)
-                .Where(x => x.id_compra == entidad.id_compra).ToList();
+                .Include(x => x._producto)
+                .Include(x => x._compra)
+                .Include(x => x._compra!._empleado)
+                .Where(x => x._compra!._empleado!.carnet!.Contains(x._compra!._empleado!.carnet!))
+                .Take(10)
+                .ToList();
         }
 
         public List<DetalleCompras> Consultar()
         {
-            return this.IConexion.DetalleCompras!.ToList();
+            return this.IConexion.DetalleCompras!
+                .Include(x => x._producto)
+                .Include(x => x._compra)
+                .Include(x => x._compra!._empleado)
+                .ToList();
         }
 
         public DetalleCompras Insertar(DetalleCompras entidad)

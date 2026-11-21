@@ -39,7 +39,8 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Empleados> Buscar(Empleados entidad)
         {
             return this.IConexion.Empleados!
-                .Include(x => x._persona).Include(y => y._salario)
+                .Include(x => x._persona)
+                .Include(y => y._salario)
                 .Where(x => x.carnet!.Contains(entidad.carnet!)).ToList();
         }
 

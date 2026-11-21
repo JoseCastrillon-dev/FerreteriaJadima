@@ -1,0 +1,182 @@
+﻿    @page
+@model CreditosModel
+@{
+    ViewData["Title"] = "Creditos";
+}
+<form method="post"
+      enctype="multipart/form-data">
+      
+      
+    <div class="text-center">
+        
+
+               
+        @if (ViewData.ContainsKey("Mensaje"))
+        {
+            @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            ;
+        }
+
+        @if (Model.Formulario || Model.Borrar)
+        {
+            <input id="nmid"
+                   type="hidden"
+                   asp-for="@Model.Actual!.id" />
+        }
+
+
+        @if (Model.Formulario)
+        {
+            <div style="display: grid; grid-template-columns: 140px 1fr; gap: 10px; max-width: 450px; align-items: center;">
+                <h3 style="grid-column: span 2; margin-bottom: 5px;">Creditos</h3>
+
+                <label for="nmVenta">Venta</label>
+                <select id="nmVenta" asp-for="@Model.Actual!.idVenta" style="padding: 5px;">
+                    <option value="">Seleccione una Venta</option>
+
+                    @if (Model.ListaVentas != null)
+                    {
+                        @foreach (var ventas in Model.ListaVentas)
+                        {
+                            <option value="@ventas.id"> @ventas.id / @ventas._detalleVenta.cantidad / @ventas.total  </option>
+
+                        }
+                    }
+                </select>
+
+                <label for="nmEstadoCredito">Estado Credito</label>
+                <select id="nmEstadoCredito" asp-for="@Model.Actual!.id_estadoCredito" style="padding: 5px;">
+                    <option value="">Seleccione un Estado de credito</option>
+
+                    @if (Model.listaEstadoCreditos != null)
+                    {
+                        @foreach (var estadoCreditos in Model.listaEstadoCreditos)
+                        {
+                            <option value="@estadoCreditos.id"> @estadoCreditos.id / @estadoCreditos.estado</option>
+
+                        }
+                    }
+                </select>
+
+               
+
+                <label for="nmFechaPrestamo">Fecha Prestamo</label>
+                <input id="nmFechaPrestamo" asp-for="@Model.Actual!.fechaPrestamo" style="padding: 5px;" />
+
+                <label for="nmValorPrestamo"> Valor prestamo</label>
+                <input id="nmValorPrestamo" asp-for="@Model.Actual!.valorPrestamo" style="padding: 5px;" />
+
+
+                <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
+                    <input type="submit" value="Agregar Credito" class="btn btn-secondary" asp-page-handler="BtGuardar" />
+                    <input type="submit" value="Cancelar" class="btn btn-secondary" asp-page-handler="BtBuscar" />
+                </div>
+            </div>
+        }
+
+
+        @if (Model.Borrar)
+        {
+            <div class="popup">
+                <div class="pp_del_inner">
+                    <h3>Mensaje</h3>
+
+                    <h4>
+                        ¿Desea borrar la entidad...?
+                    </h4>
+                    <h6>
+                        @Model.Actual!._venta._cliente._persona.nombre
+                        @Model.Actual!.fechaPrestamo
+                        @Model.Actual!.valorPrestamo
+
+                    </h6>
+                    <input type="submit"
+                           value="Cancelar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBuscar" />
+
+
+                    <input type="submit"
+                           value="Borrar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBorrar" />
+                </div>
+            </div>
+        }
+
+        @if (!Model.Formulario)
+        {
+
+            <h1 class="display-4 text-dark">Creditos</h1>
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+
+
+
+                <input type="submit"
+                       value="Nuevo Credito"
+                       class="btn btn-secondary"
+                       asp-page-handler="BtNuevo" />
+
+                <div>
+                    <button asp-page-handler="BtBuscar">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Rx8reCe8jFoPAqd8gp0fb_TVuQQ_Vy4ObziJHpT1zkfUtYn7bX9BsWlf&s=10"
+                             alt="Descripción de la imagen" width="24" height="24" />
+
+                    </button>
+                    <input id="flId"
+                           placeholder="Nombre cliente "
+                           asp-for="@Model.Filtro!._venta._cliente._persona.nombre" />
+
+
+                </div>
+
+
+            </div>
+
+            <br />
+            <br />
+
+
+            <div class="containers_vn panel panel-default">
+                <table class="tb_data table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Venta (Nombre cliente de la venta)</th>
+                        <th>Estado Credito</th>
+                        <th>Fecha Prestamo </th>
+                        <th>Valor prestamo</th>
+
+                    </tr>
+                    @if (Model != null && Model.Lista != null)
+                    {
+
+                        foreach (var elemento in Model.Lista)
+                        {
+                            <tr>
+                                <td>@elemento._venta._cliente._persona.nombre</td>
+                                <td>@elemento._estadoCredito.estado</td>
+                                <td>@elemento.fechaPrestamo</td>
+                                <td>@elemento.valorPrestamo</td>
+
+                                <td>
+                                    <input type="submit"
+                                           value="Editar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtEditar"
+                                           asp-route-data="@elemento.id" />
+                                    <input type="submit"
+                                           value="Borrar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtPregBorrar"
+                                           asp-route-data="@elemento.id" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+
+    </div>
+</form>

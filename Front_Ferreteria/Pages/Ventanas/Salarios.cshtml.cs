@@ -19,7 +19,7 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             this.ISalariosPresentacion = ISalariosPresentacion;
             this.ICargosPresentacion = ICargosPresentacion;
-            ITiposDePagosPresentacion = iTiposDePagosPresentacion;
+            this.ITiposDePagosPresentacion = iTiposDePagosPresentacion;
 
             this.Filtro = new Salarios();
             Filtro._cargo = new Cargos();

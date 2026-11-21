@@ -1,0 +1,182 @@
+﻿    @page
+@model EstanteriasModel
+@{
+    ViewData["Title"] = "Estanterias";
+}
+<form method="post"
+      enctype="multipart/form-data">
+      
+      
+    <div class="text-center">
+        
+
+               
+        @if (ViewData.ContainsKey("Mensaje"))
+        {
+            @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            ;
+        }
+
+        @if (Model.Formulario || Model.Borrar)
+        {
+            <input id="nmid"
+                   type="hidden"
+                   asp-for="@Model.Actual!.id" />
+        }
+
+
+        @if (Model.Formulario)
+        {
+            <div style="display: grid; grid-template-columns: 140px 1fr; gap: 10px; max-width: 450px; align-items: center;">
+                <h3 style="grid-column: span 2; margin-bottom: 5px;">Estanterias</h3>
+
+                <label for="nmEmpleado">Empleado</label>
+                <select id="nmEmpleado" asp-for="@Model.Actual!.id_empleado" style="padding: 5px;">
+                    <option value="">Seleccione un Empleado</option>
+
+                    @if (Model.ListaEmpleados != null)
+                    {
+                        @foreach (var empleados in Model.ListaEmpleados)
+                        {
+                            <option value="@empleados.id"> @empleados.id / @empleados.carnet</option>
+
+                        }
+                    }
+                </select>
+
+                <label for="nmProducto">Producto</label>
+                <select id="nmProducto" asp-for="@Model.Actual!.id_producto" style="padding: 5px;">
+                    <option value="">Seleccione un Producto</option>
+
+                    @if (Model.listaProductos != null)
+                    {
+                        @foreach (var productos in Model.listaProductos)
+                        {
+                            <option value="@productos.id"> @productos.id / @productos.codigo</option>
+
+                        }
+                    }
+                </select>
+
+               
+
+                <label for="nmCodigo">Codigo</label>
+                <input id="nmCodigo" asp-for="@Model.Actual!.codigo" style="padding: 5px;" />
+
+                <label for="nmStock">Stock</label>
+                <input id="nmStock" asp-for="@Model.Actual!.Stock" style="padding: 5px;" />
+
+
+                <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
+                    <input type="submit" value="Agregar Estanteria" class="btn btn-secondary" asp-page-handler="BtGuardar" />
+                    <input type="submit" value="Cancelar" class="btn btn-secondary" asp-page-handler="BtBuscar" />
+                </div>
+            </div>
+        }
+
+
+        @if (Model.Borrar)
+        {
+            <div class="popup">
+                <div class="pp_del_inner">
+                    <h3>Mensaje</h3>
+
+                    <h4>
+                        ¿Desea borrar la entidad...?
+                    </h4>
+                    <h6>
+                        @Model.Actual!._empleado.carnet
+                        @Model.Actual!._producto.codigo
+                        @Model.Actual!.codigo
+
+                    </h6>
+                    <input type="submit"
+                           value="Cancelar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBuscar" />
+
+
+                    <input type="submit"
+                           value="Borrar"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtBorrar" />
+                </div>
+            </div>
+        }
+
+        @if (!Model.Formulario)
+        {
+
+            <h1 class="display-4 text-dark">Estanterias</h1>
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+
+
+
+                <input type="submit"
+                       value="Nueva Estanteria"
+                       class="btn btn-secondary"
+                       asp-page-handler="BtNuevo" />
+
+                <div>
+                    <button asp-page-handler="BtBuscar">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Rx8reCe8jFoPAqd8gp0fb_TVuQQ_Vy4ObziJHpT1zkfUtYn7bX9BsWlf&s=10"
+                             alt="Descripción de la imagen" width="24" height="24" />
+
+                    </button>
+                    <input id="flId"
+                           placeholder="Codigo "
+                           asp-for="@Model.Filtro!.codigo"/>
+
+
+                </div>
+
+
+            </div>
+
+            <br />
+            <br />
+
+
+            <div class="containers_vn panel panel-default">
+                <table class="tb_data table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Empleado</th>
+                        <th>Producto</th>
+                        <th>Codigo</th>
+                        <th>Stock</th>
+
+                    </tr>
+                    @if (Model != null && Model.Lista != null)
+                    {
+
+                        foreach (var elemento in Model.Lista)
+                        {
+                            <tr>
+                                <td>@elemento._empleado.carnet</td>
+                                <td>@elemento._producto.codigo</td>
+                                <td>@elemento.codigo</td>
+                                <td>@elemento.Stock</td>
+
+                                <td>
+                                    <input type="submit"
+                                           value="Editar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtEditar"
+                                           asp-route-data="@elemento.id" />
+                                    <input type="submit"
+                                           value="Borrar"
+                                           class="btn btn-secondary"
+                                           asp-page-handler="BtPregBorrar"
+                                           asp-route-data="@elemento.id" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+
+    </div>
+</form>

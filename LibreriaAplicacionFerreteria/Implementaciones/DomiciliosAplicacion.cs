@@ -39,8 +39,12 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         public List<Domicilios> Buscar(Domicilios entidad)
         {
             return this.IConexion.Domicilios!
-                .Include(x => x._venta).Include(x => x._vehiculos)
-                .Where(x => x.direccion!.Contains(entidad.direccion!)).ToList();
+                .Include(x => x._venta)
+                .Include(x => x._vehiculos)
+                .Include(x => x._venta._detalleVenta)
+                .Include(x => x._venta._detalleVenta._producto)
+                .Where(x => x.direccion!.Contains(entidad.direccion!))
+                .ToList();
         }
 
         public List<Domicilios> Consultar()
