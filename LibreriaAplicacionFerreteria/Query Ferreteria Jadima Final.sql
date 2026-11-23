@@ -164,5 +164,25 @@ CREATE TABLE [Auditoria] (
 CREATE TABLE [Usuarios](
 	[id]     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	[Usuario]	     NVARCHAR(50) NOT NULL,
-	[Contraseña]	 NVARCHAR(50) NOT NULL
+	[Contraseña]	 NVARCHAR(50) NOT NULL,
+	[rol] INT NOT NULL DEFAULT 2 REFERENCES Roles(id);
 );
+
+CREATE TABLE [Roles] (
+    [id]     INT IDENTITY(1,1) PRIMARY KEY,
+    [nombre] NVARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE [Permisos] (
+    [id]      INT IDENTITY(1,1) PRIMARY KEY,
+    [id_rol]  INT NOT NULL UNIQUE REFERENCES Roles(id),
+    [ver]     BIT NOT NULL DEFAULT 0,   -- consultar y buscar
+    [guardar] BIT NOT NULL DEFAULT 0,   -- agregar, editar, actualizar
+    [borrar]  BIT NOT NULL DEFAULT 0
+);
+
+INSERT INTO Roles (nombre) VALUES ('Administrador'), ('Usuario');
+
+INSERT INTO Permisos (id_rol, ver, guardar, borrar) VALUES
+ (1, 1, 1, 1),   
+ (2, 1, 0, 0);  
