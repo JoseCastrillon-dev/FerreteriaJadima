@@ -161,18 +161,20 @@ CREATE TABLE [Auditoria] (
     [tablaAfectada]    NVARCHAR(100)             NOT NULL
 );
 
+CREATE TABLE [Roles] (
+    [id]     INT IDENTITY(1,1) PRIMARY KEY,
+    [nombre] NVARCHAR(50) NOT NULL UNIQUE
+);
+
 CREATE TABLE [Usuarios](
 	[id]     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	[Usuario]	     NVARCHAR(50) NOT NULL,
 	[Contraseña]	 NVARCHAR(50) NOT NULL,
 	[rol] INT NOT NULL DEFAULT 2 REFERENCES Roles(id),
-	[imagen] VARCHAR(MAX) NULL;
+	[imagen] VARCHAR(MAX) NULL
 );
 
-CREATE TABLE [Roles] (
-    [id]     INT IDENTITY(1,1) PRIMARY KEY,
-    [nombre] NVARCHAR(50) NOT NULL UNIQUE
-);
+
 
 CREATE TABLE [Permisos] (
     [id]      INT IDENTITY(1,1) PRIMARY KEY,

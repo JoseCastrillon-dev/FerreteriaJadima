@@ -82,7 +82,7 @@
                 @if (Permiso.Puede(HttpContext.Session, "guardar"))
                 {
                     <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
-                        <input type="submit" value="Agregar Cargo" class="btn btn-secondary" asp-page-handler="BtGuardar" />
+                        <input type="submit" value="Agregar Empleado" class="btn btn-secondary" asp-page-handler="BtGuardar" />
                         <input type="submit" value="Cancelar" class="btn btn-secondary" asp-page-handler="BtBuscar" />
                     </div>
                 }
@@ -128,7 +128,7 @@
                 @if (Permiso.Puede(HttpContext.Session, "guardar"))
                 {
                     <input type="submit"
-                           value="Nuevo Cargo"
+                           value="Nuevo Empleado"
                            class="btn btn-secondary"
                            asp-page-handler="BtNuevo" />
                 }
