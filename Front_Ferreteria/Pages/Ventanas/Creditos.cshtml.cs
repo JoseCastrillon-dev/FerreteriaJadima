@@ -180,20 +180,38 @@ namespace Front_Ferreteria.Pages.Ventanas
             }
         }
 
+
         private void CargarCreditos()
         {
-            var FiltroVentas = new Ventas {
+            var FiltroVentas = new Ventas
+            {
+                _empleado = new Empleados()
+                {
+                    carnet = ""
+                },
 
-                _empleado = new Empleados() { carnet = "" }
+                _detalleVenta = new DetalleVentas()
+                {
+                    _producto = new Productos()
+                    {
+                        codigo = ""
+                    }
+                }
             };
+
             this.ListaVentas = this.IVentasPresentacion.Buscar(FiltroVentas);
 
+            var FiltroEstadoCreditos = new EstadoCreditos
+            {
+                estado = ""
+            };
 
-            var FiltroEstadoCreditos = new EstadoCreditos { estado = "" };
-            this.listaEstadoCreditos = this.IEstadoCreditosPresentacion.Buscar(FiltroEstadoCreditos);
+            this.listaEstadoCreditos =
+                this.IEstadoCreditosPresentacion.Buscar(FiltroEstadoCreditos);
         }
 
-        
+
+
 
 
     }

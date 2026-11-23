@@ -175,22 +175,44 @@ namespace Front_Ferreteria.Pages.Ventanas
             }
         }
 
+
         private void CargarCuotas()
         {
             var FiltroCreditos = new Creditos
             {
+                _estadoCredito = new EstadoCreditos()
+                {
+                    estado = ""
+                },
 
-                _estadoCredito = new EstadoCreditos { estado = "" }
+                _venta = new Ventas()
+                {
+                    _cliente = new Clientes()
+                    {
+                        _persona = new Personas()
+                        {
+                            nombre = ""
+                        }
+                    },
 
+                    _detalleVenta = new DetalleVentas()
+                }
             };
-            this.ListaCreditos = this.ICreditosPresentacion.Buscar(FiltroCreditos);
 
+            this.ListaCreditos =
+                this.ICreditosPresentacion.Buscar(FiltroCreditos);
 
-            var FiltroTiposDePagos = new TiposDePagos { metodo = "" };
-            this.listaTiposDePagos = this.ITiposDePagosPresentacion.Buscar(FiltroTiposDePagos);
+            var FiltroTiposDePagos = new TiposDePagos
+            {
+                metodo = ""
+            };
+
+            this.listaTiposDePagos =
+                this.ITiposDePagosPresentacion.Buscar(FiltroTiposDePagos);
         }
 
-        
+
+
 
 
     }
