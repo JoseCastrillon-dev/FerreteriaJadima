@@ -2322,6 +2322,104 @@
     ]
   },
   {
+    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "Method": "Buscar",
+    "RelativePath": "Usuarios/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Usuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Usuarios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "Method": "Consultar",
+    "RelativePath": "Usuarios/Consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LibreriaAplicacionFerreteria.Entidades.Usuarios, LibreriaAplicacionFerreteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "Method": "Ingresar",
+    "RelativePath": "Usuarios/Ingresar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Usuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Usuarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "Method": "Insertar",
+    "RelativePath": "Usuarios/Insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Usuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LibreriaAplicacionFerreteria.Entidades.Usuarios",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "asp_servicios.Controllers.VehiculosController",
     "Method": "Actualizar",
     "RelativePath": "Vehiculos/Actualizar",

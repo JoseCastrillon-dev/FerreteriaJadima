@@ -28,6 +28,7 @@ builder.Services.AddScoped<ICuotasAplicacion, CuotasAplicacion>();
 builder.Services.AddScoped<IDomiciliosAplicacion, DomiciliosAplicacion>();
 builder.Services.AddScoped<IEntregasAplicacion, EntregasAplicacion>();
 builder.Services.AddScoped<IAuditoriaAplicacion, AuditoriaAplicacion>();
+builder.Services.AddScoped<IUsuariosAplicacion, UsuariosAplicacion>();
 
 
 

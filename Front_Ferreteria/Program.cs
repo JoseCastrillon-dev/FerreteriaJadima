@@ -29,6 +29,7 @@ builder.Services.AddScoped<IComunicaciones, Comunicaciones>();
     builder.Services.AddScoped<IDomiciliosPresentacion, DomiciliosPresentacion>();
     builder.Services.AddScoped<IEntregasPresentacion, EntregasPresentacion>();
     builder.Services.AddScoped<IAuditoriaPresentacion, AuditoriaPresentacion>();
+    builder.Services.AddScoped<IUsuariosPresentacion, UsuariosPresentacion>();
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -48,9 +49,20 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseSession();
 app.UseAuthorization();
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value ?? "";
+    if (path.StartsWith("/Ventanas", StringComparison.OrdinalIgnoreCase)
+        && string.IsNullOrEmpty(context.Session.GetString("Usuario")))
+    {
+        context.Response.Redirect("/");
+        return;
+    }
+    await next();
+});
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
-app.UseSession();
 app.Run();
