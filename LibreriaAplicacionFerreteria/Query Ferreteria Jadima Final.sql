@@ -165,7 +165,8 @@ CREATE TABLE [Usuarios](
 	[id]     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	[Usuario]	     NVARCHAR(50) NOT NULL,
 	[Contraseña]	 NVARCHAR(50) NOT NULL,
-	[rol] INT NOT NULL DEFAULT 2 REFERENCES Roles(id);
+	[rol] INT NOT NULL DEFAULT 2 REFERENCES Roles(id),
+	[imagen] VARCHAR(MAX) NULL;
 );
 
 CREATE TABLE [Roles] (
@@ -178,11 +179,12 @@ CREATE TABLE [Permisos] (
     [id_rol]  INT NOT NULL UNIQUE REFERENCES Roles(id),
     [ver]     BIT NOT NULL DEFAULT 0,   -- consultar y buscar
     [guardar] BIT NOT NULL DEFAULT 0,   -- agregar, editar, actualizar
-    [borrar]  BIT NOT NULL DEFAULT 0
+    [borrar]  BIT NOT NULL DEFAULT 0	--borrar
 );
 
-INSERT INTO Roles (nombre) VALUES ('Administrador'), ('Usuario');
-
+INSERT INTO Roles (nombre) VALUES ('Administrador'), ('Usuario'), ('Secretario');
+INSERT INTO Usuarios (Usuario,Contraseña,rol) VALUES ('Admin','1234',1), ('User','123',2)
 INSERT INTO Permisos (id_rol, ver, guardar, borrar) VALUES
  (1, 1, 1, 1),   
- (2, 1, 0, 0);  
+ (2, 1, 0, 0),
+ (3, 1, 1, 0);

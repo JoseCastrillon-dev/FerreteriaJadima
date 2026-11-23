@@ -56,7 +56,11 @@
                                         <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Cuotas">Cuotas</a></li>
                                         <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Domicilios">Domicilios</a></li>
                                         <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Entregas">Entregas</a></li>
-                                        <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Auditoria">Auditoria</a></li>
+                                        @if (Permiso.Puede(ViewContext.HttpContext.Session, "borrar"))
+                                            {
+                                                <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Auditoria">Auditoria</a></li>
+                                                <li><a class="dropdown-item text-dark" asp-area="" asp-page="/Ventanas/Usuarios">Usuarios</a></li>
+                                            }
                                     </ul>
                                 </li>
                             }

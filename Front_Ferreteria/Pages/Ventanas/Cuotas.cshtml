@@ -82,11 +82,13 @@
                 <input type="file"
                     asp-for="FormFile" />
 
-
+            @if (Permiso.Puede(HttpContext.Session, "guardar"))
+            {
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
-                    <input type="submit" value="Agregar Cuota" class="btn btn-secondary" asp-page-handler="BtGuardar" />
+                    <input type="submit" value="Agregar Cargo" class="btn btn-secondary" asp-page-handler="BtGuardar" />
                     <input type="submit" value="Cancelar" class="btn btn-secondary" asp-page-handler="BtBuscar" />
                 </div>
+            }
             </div>
         }
 
@@ -126,14 +128,17 @@
             <h1 class="display-4 text-dark">Cuotas</h1>
 
             <div style="display: flex; justify-content: space-between; align-items: center;">
-
-
-
-                <input type="submit"
-                       value="Nueva Cuota"
-                       class="btn btn-secondary"
-                       asp-page-handler="BtNuevo" />
-
+                @if (Permiso.Puede(HttpContext.Session, "guardar"))
+                {
+                    <input type="submit"
+                           value="Nuevo Cargo"
+                           class="btn btn-secondary"
+                           asp-page-handler="BtNuevo" />
+                }
+                else
+                {
+                    <div></div>
+                }
                 <div>
                     <button asp-page-handler="BtBuscar">
 
@@ -189,16 +194,22 @@
                                     }
                                 </td>
                                 <td>
-                                    <input type="submit"
-                                           value="Editar"
-                                           class="btn btn-secondary"
-                                           asp-page-handler="BtEditar"
-                                           asp-route-data="@elemento.id" />
-                                    <input type="submit"
-                                           value="Borrar"
-                                           class="btn btn-secondary"
-                                           asp-page-handler="BtPregBorrar"
-                                           asp-route-data="@elemento.id" />
+                                    @if (Permiso.Puede(HttpContext.Session, "guardar"))
+                                    {
+                                        <input type="submit"
+                                               value="Editar"
+                                               class="btn btn-secondary"
+                                               asp-page-handler="BtEditar"
+                                               asp-route-data="@elemento.id" />
+                                    }
+                                    @if (Permiso.Puede(HttpContext.Session, "borrar"))
+                                    {
+                                        <input type="submit"
+                                               value="Borrar"
+                                               class="btn btn-secondary"
+                                               asp-page-handler="BtPregBorrar"
+                                               asp-route-data="@elemento.id" />
+                                    }
                                 </td>
                             </tr>
                         }

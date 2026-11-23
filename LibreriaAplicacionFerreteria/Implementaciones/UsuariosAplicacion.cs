@@ -1,5 +1,6 @@
 ﻿using LibreriaAplicacionFerreteria.Entidades;
 using Microsoft.EntityFrameworkCore;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LibreriaAplicacionFerreteria.Interfaces
 {
@@ -11,10 +12,46 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         {
             this.IConexion = IConexion;
         }
+        public Usuarios Actualizar(Usuarios entidad)
+        {
+            if (entidad.id == 0)
+                throw new Exception("No se ha guardo");
 
+            if (Validar(entidad))
+                throw new Exception("Falta informacion");
+
+            var entry = this.IConexion!.Entry<Usuarios>(entidad);
+            entry.State = EntityState.Modified;
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Actualizo ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Usuarios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion!.SaveChanges();
+            return entidad;
+        }
         public List<Usuarios> Consultar()
         {
-            return this.IConexion.Usuarios!.ToList();
+            return this.IConexion.Usuarios!
+                .ToList();
+        }
+        public Usuarios Borrar(Usuarios entidad)
+        {
+            if (entidad.id == 0)
+                throw new Exception("No se ha guardo");
+
+            this.IConexion.Usuarios!.Remove(entidad!);
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se Borro ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Usuarios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
+            this.IConexion.SaveChanges();
+            return entidad;
         }
         public Usuarios Ingresar(Usuarios entidad)
         {
@@ -71,8 +108,9 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             var text = entidad.Usuario ?? string.Empty;
 
             return this.IConexion.Usuarios!
+                .Include(x => x._roles)
                 .Where(x => x.Usuario!.Contains(text))
-                            .ToList();
+                .ToList();
         }
 
         private bool Validar(Usuarios entidad)

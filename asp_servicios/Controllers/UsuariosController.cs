@@ -14,6 +14,11 @@ namespace asp_servicios.Controllers
         {
             this.IUsuariosAplicacion = IUsuariosAplicacion;
         }
+        [HttpPost]
+        public Usuarios Actualizar(Usuarios entidad)
+        {
+            return this.IUsuariosAplicacion.Actualizar(entidad);
+        }
 
         [HttpPost]
         public List<Usuarios> Consultar()
@@ -36,6 +41,11 @@ namespace asp_servicios.Controllers
         public Usuarios Ingresar(Usuarios entidad)
         {
             return this.IUsuariosAplicacion.Ingresar(entidad);
+        }
+        [HttpPost]
+        public Usuarios Borrar(Usuarios entidad)
+        {
+            return this.IUsuariosAplicacion.Borrar(entidad);
         }
     }
 }

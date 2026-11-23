@@ -31,6 +31,7 @@ builder.Services.AddScoped<IComunicaciones, Comunicaciones>();
     builder.Services.AddScoped<IEntregasPresentacion, EntregasPresentacion>();
     builder.Services.AddScoped<IAuditoriaPresentacion, AuditoriaPresentacion>();
     builder.Services.AddScoped<IUsuariosPresentacion, UsuariosPresentacion>();
+    builder.Services.AddScoped<IRolesPresentacion, RolesPresentacion>();
 
 
 builder.Services.AddEndpointsApiExplorer();
