@@ -26,6 +26,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             Filtro._tiposDePago = new TiposDePagos();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Salarios> Lista { get; set; }
         [BindProperty] public Salarios? Filtro { get; set; }
         [BindProperty] public Salarios? Actual { get; set; }
@@ -72,6 +73,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
 
                 this.Actual!._cargo = null;
                 this.Actual!._tiposDePago = null;

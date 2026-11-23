@@ -27,6 +27,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             Filtro._producto = new Productos();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Estanterias> Lista { get; set; }
         [BindProperty] public Estanterias? Filtro { get; set; }
         [BindProperty] public Estanterias? Actual { get; set; }
@@ -73,7 +74,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
-
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
                 this.Actual!._empleado = null;
                 this.Actual!._producto = null;
 

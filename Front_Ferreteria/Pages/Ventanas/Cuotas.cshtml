@@ -67,7 +67,20 @@
                 <input id="nmValorCuota" asp-for="@Model.Actual!.valorDeCuota" style="padding: 5px;" />
 
                 <label for="nmNumeroDeCuota">Numero Cuota</label>
-                <input id="nmNumeroDeCuota" asp-for="@Model.Actual!.numeroDeCuota" style="padding: 5px;" />
+                <input id="nmNumeroDeCuota" asp-for="@Model.Actual!.numeroDeCuota" style="padding: 5px;" /><label>
+                    Imagen
+                </label>
+                @if (Model.Actual!.imagen != null)
+                {
+                    <img height="100"
+                        width="100"
+                        src="data:image;base64,
+                            @System.Convert.ToBase64String(
+                            Convert.FromBase64String(
+                            Model.Actual!.imagen))" />
+                }
+                <input type="file"
+                    asp-for="FormFile" />
 
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
@@ -150,6 +163,8 @@
                         <th>Fecha de pago </th>
                         <th>Valor de cuota</th>
                         <th>numero cuota</th>
+                        <th>Imagen</th>
+                        <th></th>
 
                     </tr>
                     @if (Model != null && Model.Lista != null)
@@ -163,7 +178,16 @@
                                 <td>@elemento.fechaDePago</td>
                                 <td>@elemento.valorDeCuota</td>
                                 <td>@elemento.numeroDeCuota</td>
-
+                                <td>
+                                    @if (elemento.imagen != null)
+                                    {
+                                        <img height="60"
+                                             width="60"
+                                             src="data:image;base64,
+                                                @System.Convert.ToBase64String(
+                                                Convert.FromBase64String(elemento.imagen))" />
+                                    }
+                                </td>
                                 <td>
                                     <input type="submit"
                                            value="Editar"

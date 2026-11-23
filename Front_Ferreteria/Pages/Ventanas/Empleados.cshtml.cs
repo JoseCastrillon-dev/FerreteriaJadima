@@ -27,6 +27,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             Filtro._salario = new Salarios();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Empleados> Lista { get; set; }
         [BindProperty] public Empleados? Filtro { get; set; }
         [BindProperty] public Empleados? Actual { get; set; }
@@ -73,7 +74,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
-
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
                 this.Actual!._persona = null;
                 this.Actual!._salario = null;
 

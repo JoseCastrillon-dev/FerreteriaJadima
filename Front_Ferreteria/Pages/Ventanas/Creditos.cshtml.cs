@@ -27,6 +27,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             Filtro._estadoCredito = new EstadoCreditos();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Creditos> Lista { get; set; }
         [BindProperty] public Creditos? Filtro { get; set; }
         [BindProperty] public Creditos? Actual { get; set; }
@@ -82,7 +83,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
-
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
                 if (this.Actual!.id == 0)
                     this.Actual = this.ICreditosPresentacion.Insertar(this.Actual!);
                 else

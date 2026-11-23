@@ -65,6 +65,20 @@
 
                 <label for="nmStock">Stock</label>
                 <input id="nmStock" asp-for="@Model.Actual!.Stock" style="padding: 5px;" />
+                <label>
+                    Imagen
+                </label>
+                @if (Model.Actual!.imagen != null)
+                {
+                    <img height="100"
+                        width="100"
+                        src="data:image;base64,
+                            @System.Convert.ToBase64String(
+                            Convert.FromBase64String(
+                            Model.Actual!.imagen))" />
+                }
+                <input type="file"
+                    asp-for="FormFile" />
 
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
@@ -146,6 +160,8 @@
                         <th>Producto</th>
                         <th>Codigo</th>
                         <th>Stock</th>
+                        <th>Imagen</th>
+                        <th></th>
 
                     </tr>
                     @if (Model != null && Model.Lista != null)
@@ -158,7 +174,19 @@
                                 <td>@elemento._producto.codigo</td>
                                 <td>@elemento.codigo</td>
                                 <td>@elemento.Stock</td>
-
+                                
+                            <td>
+                                    @if (elemento.imagen != null)
+                                    {
+                                        <img height="60"
+                                             width="60"
+                                             src="data:image;base64,
+                                                @System.Convert.ToBase64String(
+                                                Convert.FromBase64String(elemento.imagen))" />
+                                    }
+                                </td>
+                                <input type="file"
+                                    asp-for="FormFile" />
                                 <td>
                                     <input type="submit"
                                            value="Editar"

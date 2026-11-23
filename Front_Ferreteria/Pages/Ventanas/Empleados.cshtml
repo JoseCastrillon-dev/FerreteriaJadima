@@ -65,6 +65,20 @@
 
                 <label for="nmGenero">Genero</label>
                 <input id="nmGenero" asp-for="@Model.Actual!.Genero" style="padding: 5px;" />
+                <label>
+                    Imagen
+                </label>
+                @if (Model.Actual!.imagen != null)
+                {
+                    <img height="100"
+                        width="100"
+                        src="data:image;base64,
+                            @System.Convert.ToBase64String(
+                            Convert.FromBase64String(
+                            Model.Actual!.imagen))" />
+                }
+                <input type="file"
+                    asp-for="FormFile" />
 
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
@@ -146,6 +160,8 @@
                         <th>Salario por Hora</th>
                         <th>Carnet</th>
                         <th>Genero</th>
+                        <th>Imagen</th>
+                        <th></th>
 
                     </tr>
                     @if (Model != null && Model.Lista != null)
@@ -158,7 +174,18 @@
                                 <td>@elemento._salario.valorHora</td>
                                 <td>@elemento.carnet</td>
                                 <td>@elemento.Genero</td>
-
+                                <td>
+                                    @if (elemento.imagen != null)
+                                    {
+                                        <img height="60"
+                                             width="60"
+                                             src="data:image;base64,
+                                                @System.Convert.ToBase64String(
+                                                Convert.FromBase64String(elemento.imagen))" />
+                                    }
+                                </td>
+                                <input type="file"
+                                    asp-for="FormFile" />
                                 <td>
                                     <input type="submit"
                                            value="Editar"

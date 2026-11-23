@@ -42,6 +42,20 @@
 
                 <label for="nmNumTelefono">Numero De telefono</label>
                 <input id="nmNumTelefono" asp-for="@Model.Actual!.numeroTelefono" style="padding: 5px;" />
+                <label>
+                    Imagen
+                </label>
+                @if (Model.Actual!.imagen != null)
+                {
+                    <img height="100"
+                        width="100"
+                        src="data:image;base64,
+                            @System.Convert.ToBase64String(
+                            Convert.FromBase64String(
+                            Model.Actual!.imagen))" />
+                }
+                <input type="file"
+                    asp-for="FormFile" />
 
                 <div style="grid-column: span 2; display: flex; gap: 10px; margin-top: 10px;">
                     <input type="submit" value="Agregar Persona" class="btn btn-secondary" asp-page-handler="BtGuardar" />
@@ -120,8 +134,8 @@
                         <th>Nombre</th>
                         <th>Apellido</th>
                         <th>Numero De telefono</th>
-
-
+                        <th>Imagen</th>
+                        <th></th>
 
                     </tr>
                     @if (Model != null && Model.Lista != null)
@@ -133,7 +147,19 @@
                                 <td>@elemento.nombre</td>
                                 <td>@elemento.apellido</td>
                                 <td>@elemento.numeroTelefono</td>
-
+                                
+                            <td>
+                                    @if (elemento.imagen != null)
+                                    {
+                                        <img height="60"
+                                             width="60"
+                                             src="data:image;base64,
+                                                @System.Convert.ToBase64String(
+                                                Convert.FromBase64String(elemento.imagen))" />
+                                    }
+                                </td>
+                                <input type="file"
+                                    asp-for="FormFile" />
                                 <td>
                                     <input type="submit"
                                            value="Editar"

@@ -19,6 +19,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             this.Filtro._tipo = new Tipos();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Productos> Lista { get; set; }
         [BindProperty] public Productos? Filtro { get; set; }
         [BindProperty] public Productos? Actual { get; set; }
@@ -58,6 +59,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
 
                 this.Actual!._tipo = null;
 

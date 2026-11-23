@@ -27,6 +27,7 @@ namespace Front_Ferreteria.Pages.Ventanas
             Filtro._tipoDePago = new TiposDePagos();
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public List<Cuotas> Lista { get; set; }
         [BindProperty] public Cuotas? Filtro { get; set; }
         [BindProperty] public Cuotas? Actual { get; set; }
@@ -77,7 +78,13 @@ namespace Front_Ferreteria.Pages.Ventanas
         {
             try
             {
-
+                if (FormFile != null)
+                {
+                    var memoryStream = new MemoryStream();
+                    FormFile.CopyToAsync(memoryStream).Wait();
+                    Actual!.imagen = Convert.ToBase64String(memoryStream.ToArray());
+                    memoryStream.Dispose();
+                }
                 if (this.Actual!.id == 0)
                     this.Actual = this.ICuotasPresentacion.Insertar(this.Actual!);
                 else
