@@ -36,6 +36,12 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             };
             this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion!.SaveChanges();
+            
+            var permiso = this.IConexion.Permisos!.FirstOrDefault(p => p.id_rol == encontrado.rol);
+
+            encontrado.Ver = permiso?.ver ?? false;
+            encontrado.Guardar = permiso?.guardar ?? false;
+            encontrado.Borrar = permiso?.borrar ?? false;
 
             encontrado.Contraseña = null;
             return encontrado;
@@ -49,7 +55,14 @@ namespace LibreriaAplicacionFerreteria.Interfaces
             if (Validar(entidad))
                 throw new Exception("Falta informacion");
 
-            this.IConexion.Usuarios!.Add(entidad!);
+            this.IConexion.Usuarios!.Add(entidad!); 
+            var Auditoria = new Auditoria
+            {
+                Desc = "Se inserto ",
+                fecha = DateTime.Now,
+                tablaAfectada = "Usuarios"
+            };
+            this.IConexion.Auditoria!.Add(Auditoria!);
             this.IConexion.SaveChanges();
             return entidad;
         }

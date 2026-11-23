@@ -1,6 +1,7 @@
 
-using LibreriaPresentacionFerreteria.Interfaces;
+using Front_Ferreteria;
 using LibreriaPresentacionFerreteria.implementaciones;
+using LibreriaPresentacionFerreteria.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,11 +55,25 @@ app.UseAuthorization();
 app.Use(async (context, next) =>
 {
     var path = context.Request.Path.Value ?? "";
-    if (path.StartsWith("/Ventanas", StringComparison.OrdinalIgnoreCase)
-        && string.IsNullOrEmpty(context.Session.GetString("Usuario")))
+    if (path.StartsWith("/Ventanas", StringComparison.OrdinalIgnoreCase))
     {
-        context.Response.Redirect("/");
-        return;
+        if (string.IsNullOrEmpty(context.Session.GetString("Usuario")))
+        {
+            context.Response.Redirect("/");
+            return;
+        }
+
+        var handler = context.Request.Query["handler"].ToString();
+
+        var accion = handler is "BtBorrar" or "BtPregBorrar" ? "borrar"
+                   : handler is "BtNuevo" or "BtGuardar" or "BtEditar" ? "guardar"
+                   : "ver";
+
+        if (!Permiso.Puede(context.Session, accion))
+        {
+            context.Response.Redirect("/");
+            return;
+        }
     }
     await next();
 });

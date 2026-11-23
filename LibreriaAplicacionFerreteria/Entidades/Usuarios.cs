@@ -10,6 +10,11 @@ namespace LibreriaAplicacionFerreteria.Entidades
         public int id { get; set; }
         public String? Usuario { get; set; }
         public String? Contraseña { get; set; }
+        public int rol { get; set; }
+
+        [NotMapped] public bool Ver { get; set; }
+        [NotMapped] public bool Guardar { get; set; }
+        [NotMapped] public bool Borrar { get; set; }
     }
 }
    

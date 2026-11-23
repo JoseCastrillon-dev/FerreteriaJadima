@@ -58,6 +58,9 @@ namespace Front_Ferreteria.Pages
                 }
 
                 HttpContext.Session.SetString("Usuario", usuario.Usuario!);
+                HttpContext.Session.SetString("P_ver", usuario.Ver ? "1" : "0");
+                HttpContext.Session.SetString("P_guardar", usuario.Guardar ? "1" : "0");
+                HttpContext.Session.SetString("P_borrar", usuario.Borrar ? "1" : "0");
                 EstaLogueado = true;
                 OnPostBtClean();
             }
