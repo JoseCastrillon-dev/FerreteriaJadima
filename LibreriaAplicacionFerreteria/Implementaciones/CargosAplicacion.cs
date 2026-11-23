@@ -53,7 +53,7 @@ namespace LibreriaAplicacionFerreteria.Interfaces
         {
             var Auditoria = new Auditoria
             {
-                Desc = "Se Busco",
+                Desc = "Se Busco ",
                 fecha = DateTime.Now,
                 tablaAfectada = "Cargos"
             };

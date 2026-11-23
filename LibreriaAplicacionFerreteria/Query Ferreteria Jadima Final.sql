@@ -1,4 +1,3 @@
-/*
 CREATE DATABASE Ferreteria_Jadima;
 GO
 USE Ferreteria_Jadima;
@@ -157,8 +156,13 @@ CREATE TABLE [Entregas](
 );
 CREATE TABLE [Auditoria] (
     [id]     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-	[Desc]	           NVARCHAR(20) NOT NULL,
+	[Desc]	           NVARCHAR(60) NOT NULL,
     [fecha]            DATETIME        NOT NULL,
     [tablaAfectada]    NVARCHAR(100)             NOT NULL
 );
-*/
+
+CREATE TABLE [Usuarios](
+	[id]     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[Usuario]	     NVARCHAR(50) NOT NULL,
+	[Contraseña]	 NVARCHAR(50) NOT NULL
+);

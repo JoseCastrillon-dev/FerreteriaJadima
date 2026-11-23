@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibreriaAplicacionFerreteria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8532d1c88963dc125c6cb3d2ce010f1eae483dd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+222d712bdaf1157004b6262433ea9c78a60eb1f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibreriaAplicacionFerreteria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibreriaAplicacionFerreteria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
